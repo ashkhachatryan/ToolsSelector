@@ -105,7 +105,66 @@ namespace ToolsSelector
                     {
                         featuresCombo.Items.Add(tool.ServicesFeatures);
                     }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
 
+        private void TypeCombo_Loaded(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
+
+                foreach (var tool in x)
+                {
+                    if (!typeCombo.Items.Contains(tool.Type))
+                    {
+                        typeCombo.Items.Add(tool.Type);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void TrialPeriodCombo_Loaded(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
+
+                foreach (var tool in x)
+                {
+                    if (!trialPeriodCombo.Items.Contains(tool.TrialPeriod))
+                    {
+                        trialPeriodCombo.Items.Add(tool.TrialPeriod);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void priceCombo_Loaded(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
+
+                foreach (var tool in x)
+                {
+                    if (!priceCombo.Items.Contains(tool.Price))
+                    {
+                        priceCombo.Items.Add(tool.Price);
+                    }
                 }
             }
             catch (Exception ex)

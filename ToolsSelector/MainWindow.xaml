@@ -21,8 +21,13 @@
         <ComboBox x:Name="nameCombo" Loaded="NameCombo_Loaded" HorizontalAlignment="Left" Margin="130,13,0,0" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="categoryLabel" Content="Category" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="60"/>
         <Label x:Name="featuresLabel" Content="Services/Features" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,160,0,0" Width="110"/>
-        <Label x:Name="label2" Content="Label" HorizontalAlignment="Left" Margin="10,199,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label x:Name="typeLabel" Content="Type" HorizontalAlignment="Left" Margin="10,199,0,0" VerticalAlignment="Top" Width="80"/>
         <ComboBox x:Name="featuresCombo" Loaded="FeaturesCombo_Loaded" HorizontalAlignment="Left" Margin="130,160,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="typeCombo" Loaded="TypeCombo_Loaded" HorizontalAlignment="Left" Margin="130,199,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="trialPeriodLabel" Content="Trial Period" HorizontalAlignment="Left" Margin="10,240,0,0" VerticalAlignment="Top" Width="75"/>
+        <ComboBox x:Name="trialPeriodCombo" Loaded="TrialPeriodCombo_Loaded" HorizontalAlignment="Left" Margin="130,240,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="priceLabel" Content="Price" HorizontalAlignment="Left" Margin="10,280,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,0.016" Width="60"/>
+        <ComboBox x:Name="priceCombo" Loaded="priceCombo_Loaded" HorizontalAlignment="Left" Margin="130,280,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.295,0.455"/>
 
 
     </Grid>
