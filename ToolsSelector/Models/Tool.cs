@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ToolsSelector.Models
 {
-    public class Tool
+    public class  Tool
     {
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
