@@ -9,7 +9,7 @@ using ToolsSelector.Models;
 
 namespace ToolsSelector.ViewModels
 {
-    public class Actions
+    public class  Actions
     {
         public List<Tool> Tools { get; set; }
     }
