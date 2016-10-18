@@ -17,3 +17,4 @@ D:\Github\ToolsRepo\ToolsSelector\ToolsSelector\obj\Debug\ToolsSelector.Properti
 D:\Github\ToolsRepo\ToolsSelector\ToolsSelector\obj\Debug\ToolsSelector.csproj.GenerateResource.Cache
 D:\Github\ToolsRepo\ToolsSelector\ToolsSelector\obj\Debug\ToolsSelector.exe
 D:\Github\ToolsRepo\ToolsSelector\ToolsSelector\obj\Debug\ToolsSelector.pdb
+D:\Github\ToolsRepo\ToolsSelector\ToolsSelector\obj\Debug\GeneratedInternalTypeHelper.g.cs

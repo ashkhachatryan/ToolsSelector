@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:ToolsSelector"
              StartupUri="Views/MainWindow.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>

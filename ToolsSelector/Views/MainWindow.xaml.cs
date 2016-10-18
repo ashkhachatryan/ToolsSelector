@@ -17,160 +17,26 @@ namespace ToolsSelector
     {
         string jsonFile = File.ReadAllText(@"Resources\Json.json");
 
+        //public Tool SelectedTool { get
+        //    {
+        //        return null;
+
+        //    }
+        //    set
+        //    {
+        //        int a = 0;
+        //    }
+
+        //        }
+
+        public List<Tool> x { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
+            x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
+            this.DataContext = this;
         }
 
-        private void CategoryCombo_Loaded(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                var x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
-
-                foreach (var tool in x)
-                {
-                    if (!categoryCombo.Items.Contains(tool.Category))
-                    {
-                        categoryCombo.Items.Add(tool.Category);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
-        }
-
-        private void WebPageCombo_Loaded(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                var x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
-
-                foreach (var tool in x)
-                {
-                    webPageCombo.Items.Add(tool.WebPage);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
-        }
-
-        private void DescriptionCombo_Loaded(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                var x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
-
-                foreach (var tool in x)
-                {
-                    descriptionCombo.Items.Add(tool.Description);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
-        }
-
-        private void NameCombo_Loaded(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                var x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
-
-                foreach (var tool in x)
-                {
-                    nameCombo.Items.Add(tool.Name);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
-        }
-
-        private void FeaturesCombo_Loaded(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                var x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
-
-                foreach (var tool in x)
-                {
-                    if (!featuresCombo.Items.Contains(tool.ServicesFeatures))
-                    {
-                        featuresCombo.Items.Add(tool.ServicesFeatures);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
-        }
-
-        private void TypeCombo_Loaded(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                var x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
-
-                foreach (var tool in x)
-                {
-                    if (!typeCombo.Items.Contains(tool.Type))
-                    {
-                        typeCombo.Items.Add(tool.Type);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
-        }
-
-        private void TrialPeriodCombo_Loaded(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                var x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
-
-                foreach (var tool in x)
-                {
-                    if (!trialPeriodCombo.Items.Contains(tool.TrialPeriod))
-                    {
-                        trialPeriodCombo.Items.Add(tool.TrialPeriod);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
-        }
-
-        private void priceCombo_Loaded(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                var x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
-
-                foreach (var tool in x)
-                {
-                    if (!priceCombo.Items.Contains(tool.Price))
-                    {
-                        priceCombo.Items.Add(tool.Price);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
-        }
     }
 }
