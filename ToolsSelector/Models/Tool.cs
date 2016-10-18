@@ -9,7 +9,7 @@ namespace ToolsSelector.Models
 {
     public class Tool
     {
-        [JsonProperty(PropertyName = "name")]
+        [JsonProperty(PropertyName =  "name")]
         public string Name { get; set; }
 
         [JsonProperty(PropertyName = "webPage")]
