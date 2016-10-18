@@ -1,1 +1,2 @@
 D:\Github\NEwRepo\ToolsSelector\ToolsSelector\bin\Debug\ToolsSelector.exe.config
+C:\Users\Arman\Desktop\ToolsRepo\ToolsSelector\ToolsSelector\bin\Debug\ToolsSelector.exe.config
