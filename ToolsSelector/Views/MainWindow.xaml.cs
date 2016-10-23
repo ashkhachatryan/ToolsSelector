@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Media;
 using ToolsSelector.Models;
 
 namespace ToolsSelector
@@ -14,45 +15,44 @@ namespace ToolsSelector
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class  MainWindow :  Window,INotifyPropertyChanged
+    public partial class MainWindow : Window, INotifyPropertyChanged
     {
         string jsonFile = File.ReadAllText(@"Resources\Json.json");
 
         public List<Tool> x { get; set; }
         public List<Tool> backup { get; set; }
-             
+
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        Tool _SelectedTool = null;
+        Tool _selectedTool = null;
 
         public Tool SelectedTool
         {
             get
             {
-                return _SelectedTool;
+                return _selectedTool;
             }
             set
             {
-                backup = x;
-
-                if (_SelectedTool != value)
+                if (_selectedTool != value)
                 {
-                    _SelectedTool = value;
+                    _selectedTool = value;
                     var t = x.Where(x => x.Category == SelectedTool.Category).ToList();
                     x = new List<Tool>(t);
+
                     RaisePropertyChanged("x");
+                    refreshButton.Click += Refresh_Click;
                 }
             }
         }
-
 
 
         public MainWindow()
         {
             InitializeComponent();
             x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
-            backup = new List<Tool>();
+            backup = new List<Tool>(x);
             this.DataContext = this;
         }
 
@@ -64,16 +64,18 @@ namespace ToolsSelector
             }
         }
 
-      
 
-        //private void categoryCombo_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
-        //{
-        //    nameCombo.ItemsSource = null;
 
-        //    nameCombo.Items.Add("tool");
 
-        //    nameCombo.Items.Refresh();
-        //}
+        public void Refresh()
+        {
+            x = backup;
+            RaisePropertyChanged("x");
+        }
 
+        private void Refresh_Click(object sender, RoutedEventArgs e)
+        {
+            Refresh();
+        }
     }
 }

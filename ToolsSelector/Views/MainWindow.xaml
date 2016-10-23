@@ -11,13 +11,13 @@
         <Views:DistinctConverter x:Key="DistinctConverter"></Views:DistinctConverter>
     </Window.Resources>
     <Grid>
-        <ComboBox x:Name="categoryCombo" ItemsSource="{Binding x,Mode=OneWay,  Converter={StaticResource DistinctConverter},ConverterParameter=Category}"   DisplayMemberPath="Category" SelectedValuePath="Category" SelectedItem="{Binding SelectedTool,Mode=TwoWay}"  HorizontalAlignment="Left" Margin="380,45,0,0" VerticalAlignment="Top" Width="120"  />
-        <Label x:Name="webPageLabel" Content="Web Page" HorizontalAlignment="Left" Margin="65,223,0,0" VerticalAlignment="Top" Width="65" Height="30" RenderTransformOrigin="0.462,2.173"/>
-        <Label x:Name="descriptionLabel" Content="Description " HorizontalAlignment="Left" Margin="395,228,0,0" VerticalAlignment="Top" Width="75" Height="25"/>
-        <ComboBox x:Name="webPageCombo" ItemsSource="{Binding x}" DisplayMemberPath="WebPage" SelectedValuePath="WebPage" SelectedItem="{Binding Tool}" HorizontalAlignment="Left" Margin="40,253,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="categoryCombo" ItemsSource="{Binding x,Mode=OneWay,  Converter={StaticResource DistinctConverter},ConverterParameter=Category}"   DisplayMemberPath="Category" SelectedValuePath="Category" SelectedItem="{Binding SelectedTool}"  HorizontalAlignment="Left" Margin="380,45,0,0" VerticalAlignment="Top" Width="120"  />
+        <Label x:Name="webPageLabel" Content="Web Page" HorizontalAlignment="Left" Margin="70,223,0,0" VerticalAlignment="Top" Width="65" Height="30" RenderTransformOrigin="0.462,2.173"/>
+        <Label x:Name="descriptionLabel" Content="Description " HorizontalAlignment="Left" Margin="395,228,0,0" VerticalAlignment="Top" Width="75" Height="25" RenderTransformOrigin="0.531,-0.92"/>
+        <ComboBox x:Name="webPageCombo" ItemsSource="{Binding x}" DisplayMemberPath="WebPage" SelectedValuePath="WebPage" SelectedItem="{Binding Tool}" HorizontalAlignment="Left" Margin="40,253,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.321"/>
         <ComboBox x:Name="descriptionCombo" ItemsSource="{Binding x}" DisplayMemberPath="Description" SelectedValuePath="Description" SelectedItem="{Binding Category}" HorizontalAlignment="Left" Margin="380,253,0,0" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="nameLabel" Content="Name" HorizontalAlignment="Left" Margin="70,19,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.125,-0.187" Width="60"/>
-        <ComboBox x:Name="nameCombo" ItemsSource="{Binding x,Mode=OneWay}"  DisplayMemberPath="Name" SelectedValuePath="Name" SelectedItem="{Binding SelectedTool}"  HorizontalAlignment="Left" Margin="40,45,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="nameCombo" ItemsSource="{Binding x,Mode=OneWay}"  DisplayMemberPath="Name" SelectedValuePath="Name"   HorizontalAlignment="Left" Margin="40,45,0,0" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="categoryLabel" Content="Category" HorizontalAlignment="Left" Margin="410,19,0,0" VerticalAlignment="Top" Width="60"/>
         <Label x:Name="featuresLabel" Content="Services/Features" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,410,0,0" Width="110"/>
         <Label x:Name="typeLabel" Content="Type" HorizontalAlignment="Left" Margin="760,19,0,0" VerticalAlignment="Top" Width="80">
@@ -28,8 +28,9 @@
         <ComboBox x:Name="featuresCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=ServicesFeatures}" DisplayMemberPath="ServicesFeatures" SelectedValuePath="ServicesFeatures" SelectedItem="{Binding Tool}" HorizontalAlignment="Left" Margin="40,435,0,0" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="typeCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Type}" DisplayMemberPath="Type" SelectedValuePath="Type" SelectedItem="{Binding Tool}"  HorizontalAlignment="Left" Margin="720,45,0,0" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="trialPeriodLabel" Content="Trial Period" HorizontalAlignment="Left" Margin="745,227,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.472,1.594"/>
-        <ComboBox x:Name="trialPeriodCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=TrialPeriod}" DisplayMemberPath="TrialPeriod" SelectedValuePath="TrialPeriod" SelectedItem="{Binding Tool}" HorizontalAlignment="Left" Margin="720,253,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="trialPeriodCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=TrialPeriod}" DisplayMemberPath="TrialPeriod" SelectedValuePath="TrialPeriod" SelectedItem="{Binding SelectedTool}" HorizontalAlignment="Left" Margin="720,253,0,0" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="priceLabel" Content="Price" HorizontalAlignment="Left" Margin="410,409,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,0.016" Width="60"/>
-        <ComboBox x:Name="priceCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Price}" DisplayMemberPath="Price" SelectedValuePath="Price" SelectedItem="{Binding Tool}" HorizontalAlignment="Left" Margin="380,435,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.295,0.455"/>
+        <ComboBox x:Name="priceCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Price}" SelectedItem="{Binding SelectedTool}" DisplayMemberPath="Price" SelectedValuePath="Price"  HorizontalAlignment="Left" Margin="380,435,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.295,0.455"/>
+        <Button x:Name="refreshButton" Content="Refresh" HorizontalAlignment="Left" Margin="690,410,0,0" VerticalAlignment="Top" Width="150" Height="55" Click="Refresh_Click"/>
     </Grid>
 </Window>
