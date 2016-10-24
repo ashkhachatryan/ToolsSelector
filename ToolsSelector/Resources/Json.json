@@ -484,7 +484,7 @@
     "webPage": "zoho.com",
     "description": "Zoho Reports is an online reporting and business intelligence service that helps you easily analyze your business data, and create insightful reports & dashboards for informed decision-making. It allows you to easily create and share powerful reports in minutes with no IT help. \n",
     "servicesfeatures": "Analytics\r\nReporting\r\nSupport \n",
-    "type": "Web-based \n",
+    "type": "Android\niPhone-iPad\niPad\nWeb-based\nMobile Web App \n",
     "category": "BI Software",
     "trialPeriod": "15 days",
     "price": "Free for 2 users, 100,000 rows \r\nStandard (5 users, 500,000 rows) $50\r\nProfessional (10 users, 1,000,000 rows) $90\r\nProfessional Plus (20 users, 2,000,000 rows) $140\r\nEnterprise (50 users, 25,000,000 rows) $495 \n"
