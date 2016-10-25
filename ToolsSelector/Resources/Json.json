@@ -7,7 +7,8 @@
     "type": "Android\niPhone-iPad\niPhone\niPad\nMac\nWindows\nWindows Phone\nWeb-based\nMobile Web App \n",
     "category": "Marketing",
     "trialPeriod": "Available",
-    "price": "Spark: $999/month – 30 campaigns, 1 domain\r\nStandard: $1,499/month – 60 campaigns, 1 domain\r\nEnterprise: $2,999/month – Unlimited campaigns, 4 domains\r\nConsumer: $1,499/month – 60 campaigns, 1 domain \n"
+    "price": "Spark: $999/month – 30 campaigns, 1 domain\r\nStandard: $1,499/month – 60 campaigns, 1 domain\r\nEnterprise: $2,999/month – Unlimited campaigns, 4 domains\r\nConsumer: $1,499/month – 60 campaigns, 1 domain \n",
+    "icons": "Marketo.png"
   },
   {
     "name": "Pardot",
@@ -17,7 +18,8 @@
     "type": "Android\niPhone-iPad\niPhone\nWeb-based\nMobile Web App",
     "category": "Marketing",
     "trialPeriod": "30 days",
-    "price": "Standard: $1,000/month\r\nPro: $2,000/month – Advanced analytics, dynamic content, A/B testing\r\nUltimate: $3,000/month – Custom user roles, API access \n"
+    "price": "Standard: $1,000/month\r\nPro: $2,000/month – Advanced analytics, dynamic content, A/B testing\r\nUltimate: $3,000/month – Custom user roles, API access \n",
+    "icons": "Pardot.png"
   },
   {
     "name": "Hubspot",
@@ -27,7 +29,8 @@
     "type": "Web-based \n",
     "category": "Marketing",
     "trialPeriod": "30 days",
-    "price": "Basic $200/month - For those new to inbount marketing\r\nProfessional $800/month  - For professional marketers            \r\nEnterprise $2400/month  - For marketing teams \n"
+    "price": "Basic $200/month - For those new to inbount marketing\r\nProfessional $800/month  - For professional marketers            \r\nEnterprise $2400/month  - For marketing teams \n",
+    "icons": "Hubspot.png"
   },
   {
     "name": "Genoo",
@@ -37,7 +40,8 @@
     "type": "Web-based \n",
     "category": "SEO",
     "trialPeriod": "30 days",
-    "price": "Standard: $199/month – 3 users, 5 lead capture forms\r\nPremium: $599/month – 10 users, unlimited lead capture forms\r\nElite: $1,499/month – 50 users, unlimited lead capture forms \n"
+    "price": "Standard: $199/month – 3 users, 5 lead capture forms\r\nPremium: $599/month – 10 users, unlimited lead capture forms\r\nElite: $1,499/month – 50 users, unlimited lead capture forms \n",
+    "icons": "Genoo.png"
   },
   {
     "name": "Ontraport",
@@ -47,7 +51,9 @@
     "type": "Android\niPhone-iPad\niPhone\nWeb-based \n",
     "category": "Marketing",
     "trialPeriod": "7 days",
-    "price": "Pro: $297/month – 2 users, 25,000 contacts\r\nTeam: $597/month – 10 users, 100,000 contacts \n"
+    "price": "Pro: $297/month – 2 users, 25,000 contacts\r\nTeam: $597/month – 10 users, 100,000 contacts \n",
+    "icons": "Ontraport.jpg"
+
   },
   {
     "name": "LeadSquared",
@@ -57,7 +63,8 @@
     "type": "Android\niPhone-iPad\niPhone\niPad\nMac\nWindows\nWindows Phone\nMobile Web App \n",
     "category": "Marketing",
     "trialPeriod": "15 days",
-    "price": "Basic: $125/month – 5 users, 2,000 contacts\r\nStandard: $250/month – 10 users, 10,000 contacts\r\nEnterprise: $500/month – 20 users, 25,000 contacts \n"
+    "price": "Basic: $125/month – 5 users, 2,000 contacts\r\nStandard: $250/month – 10 users, 10,000 contacts\r\nEnterprise: $500/month – 20 users, 25,000 contacts \n",
+    "icons": "LeadSquared.png"
   },
   {
     "name": "CommuniGator",
@@ -67,7 +74,8 @@
     "type": "Desktop\nWeb-based \n",
     "category": "Marketing",
     "trialPeriod": "14 days",
-    "price": "Contact for a quote \n"
+    "price": "Contact for a quote \n",
+    "icons": "CommuniGator.jpg"
   },
   {
     "name": "GreenRope",
@@ -77,7 +85,8 @@
     "type": "Android\niPhone-iPad\niPhone\niPad\nMac\nLinux\nWindows\nWeb-based \n",
     "category": "Marketing",
     "trialPeriod": "14 days with every plan!",
-    "price": "Starter: $129/month – 1,000 contacts\r\nPro: $149/month – 3,000 contacts\r\nPremium: $169/month – 5,000 contacts\r\nPowerhouse: $199/month – 7,500 contacts\r\nMagnificent: $249/month – 10,000 contacts\r\nSupreme: $399/month – 25,000 contacts\r\nUltimate: $449/month – 50,000 contacts \n"
+    "price": "Starter: $129/month – 1,000 contacts\r\nPro: $149/month – 3,000 contacts\r\nPremium: $169/month – 5,000 contacts\r\nPowerhouse: $199/month – 7,500 contacts\r\nMagnificent: $249/month – 10,000 contacts\r\nSupreme: $399/month – 25,000 contacts\r\nUltimate: $449/month – 50,000 contacts \n",
+    "icons": "GreenRope.jpg"
   },
   {
     "name": "Gliffy",
@@ -87,7 +96,8 @@
     "type": "Mac\nWindows\nWeb-based",
     "category": "Marketing",
     "trialPeriod": "14 days",
-    "price": "Free - $0 / / user a month\r\nStandard\t- $3.99 / user a month\r\nPro - $7.99 / user a month \n"
+    "price": "Free - $0 / / user a month\r\nStandard\t- $3.99 / user a month\r\nPro - $7.99 / user a month \n",
+    "icons": "Gliffy.png"
   },
   {
     "name": "Sublime",
@@ -97,7 +107,8 @@
     "type": "Mac\nWindows\nLinux \n",
     "category": "Development",
     "trialPeriod": "-",
-    "price": "Free \n"
+    "price": "Free \n",
+    "icons": "Sublime.png"
   },
   {
     "name": "Jquery",
@@ -107,7 +118,8 @@
     "type": "- \n",
     "category": "Development",
     "trialPeriod": "-",
-    "price": "Free \n"
+    "price": "Free \n",
+    "icons": "Jquery.png"
   },
   {
     "name": "Github",
@@ -117,7 +129,8 @@
     "type": "iPhone-iPad\nMac\nWindows\nWeb-based\nMobile Web App \n",
     "category": "Development",
     "trialPeriod": "45 days ",
-    "price": "Free - For public and open source projects.\nPersonal -$7/per user month \nOrganization - $9 /per user month\nEnterprise - $21/per user month \n"
+    "price": "Free - For public and open source projects.\nPersonal -$7/per user month \nOrganization - $9 /per user month\nEnterprise - $21/per user month \n",
+    "icons": "Github.png"
   },
   {
     "name": "Bootstrap",
@@ -127,7 +140,8 @@
     "type": "- \n",
     "category": "Development",
     "trialPeriod": "-",
-    "price": "- \n"
+    "price": "- \n",
+    "icons": "Bootstrap.png"
   },
   {
     "name": "Sass",
@@ -137,7 +151,8 @@
     "type": "Web-based",
     "category": "Development",
     "trialPeriod": "-",
-    "price": "Free \n"
+    "price": "Free \n",
+    "icons": "Sass.png"
   },
   {
     "name": "Resharper",
@@ -147,7 +162,8 @@
     "type": "Windows \n",
     "category": "Development",
     "trialPeriod": "30 days",
-    "price": "BUSINESS AND ORGANIZATIONS\nReSharper\nUS $ 299.00 /1st year\nUS $ 239.00 /2nd year\nUS $ 179.00 /3rd year on wards\nUS $ 29.90 /month\n\nReSharper Ultimate\nUS $ 399.00 /1st year\nUS $ 319.00 /2nd year\nUS $ 239.00 /3rd yr onwards\nUS $ 39.90 /month\n                               INDIVIDUAL CUSTOMERS\n\nReSharper\nUS $ 129.00 /1st year\nUS $ 103.00 /2nd year\nUS $ 77.00 /3rd yr onwards\nUS $ 12.90 /month\n\nReSharper Ultimate\nUS $ 399.00 /1st year\nUS $ 319.00 /2nd year\nUS $ 239.00 /3rd yr onwards\nUS $ 14.90 /month \n"
+    "price": "BUSINESS AND ORGANIZATIONS\nReSharper\nUS $ 299.00 /1st year\nUS $ 239.00 /2nd year\nUS $ 179.00 /3rd year on wards\nUS $ 29.90 /month\n\nReSharper Ultimate\nUS $ 399.00 /1st year\nUS $ 319.00 /2nd year\nUS $ 239.00 /3rd yr onwards\nUS $ 39.90 /month\n                               INDIVIDUAL CUSTOMERS\n\nReSharper\nUS $ 129.00 /1st year\nUS $ 103.00 /2nd year\nUS $ 77.00 /3rd yr onwards\nUS $ 12.90 /month\n\nReSharper Ultimate\nUS $ 399.00 /1st year\nUS $ 319.00 /2nd year\nUS $ 239.00 /3rd yr onwards\nUS $ 14.90 /month \n",
+    "icons": "Resharper.png"
   },
   {
     "name": "PhpStorm",
@@ -157,7 +173,8 @@
     "type": "Windows \n",
     "category": "Development",
     "trialPeriod": "30 days",
-    "price": "BUSINESS AND ORGANIZATIONS\r\nUS $ 199.00 /1st year\r\nUS $ 159.00 /2nd year\r\nUS $ 119.00 /3rd yr onwards\r\nUS $ 19.90 /month\r\n\r\n                       INDIVIDUAL CUSTOMERS\r\nUS $ 89.00 /1st year\r\nUS $ 71.00 /2nd year\r\nUS $ 53.00 /3rd yr onwards\r\nUS $ 8.90 /month \n"
+    "price": "BUSINESS AND ORGANIZATIONS\r\nUS $ 199.00 /1st year\r\nUS $ 159.00 /2nd year\r\nUS $ 119.00 /3rd yr onwards\r\nUS $ 19.90 /month\r\n\r\n                       INDIVIDUAL CUSTOMERS\r\nUS $ 89.00 /1st year\r\nUS $ 71.00 /2nd year\r\nUS $ 53.00 /3rd yr onwards\r\nUS $ 8.90 /month \n",
+    "icons": "PhpStorm.png"
   },
   {
     "name": "WebStorm",
@@ -167,7 +184,8 @@
     "type": "Windows \n",
     "category": "Development",
     "trialPeriod": "30 days",
-    "price": "BUSINESS AND ORGANIZATIONS\n\nUS $ 129.00 /1st year\nUS $ 103.00 /2nd year\nUS $ 77.00 /3rd yr onwards\nUS $ 12.90 /month\n\n                          INDIVIDUAL CUSTOMERS\n\nUS $ 59.00 /1st year\nUS $ 47.00 /2nd year\nUS $ 35.00 /3rd yr onwards\nUS $ 5.90 /month \n"
+    "price": "BUSINESS AND ORGANIZATIONS\n\nUS $ 129.00 /1st year\nUS $ 103.00 /2nd year\nUS $ 77.00 /3rd yr onwards\nUS $ 12.90 /month\n\n                          INDIVIDUAL CUSTOMERS\n\nUS $ 59.00 /1st year\nUS $ 47.00 /2nd year\nUS $ 35.00 /3rd yr onwards\nUS $ 5.90 /month \n",
+    "icons": "WebStorm.png"
   },
   {
     "name": "DotPeek",
@@ -177,7 +195,8 @@
     "type": "Windows \n",
     "category": "Development",
     "trialPeriod": "-",
-    "price": "Free \n"
+    "price": "Free \n",
+    "icons": "DotPeek.png"
   },
   {
     "name": "IntelliJ IDEA",
@@ -187,17 +206,19 @@
     "type": "Android \n",
     "category": "Development",
     "trialPeriod": "30 days",
-    "price": "BUSINESS AND ORGANIZATIONS\nUS $ 499.00 /1st year\nUS $ 399.00 /2nd year\nUS $ 299.00 /3rd year onwards\nUS $ 49.90 /month\n\n                         INDIVIDUAL CUSTOMERS\nUS $ 149.00 /1st year\nUS $ 119.00 /2nd year\nUS $ 89.00 /3rd yr onwards\nUS $ 14.90 /month \n"
+    "price": "BUSINESS AND ORGANIZATIONS\nUS $ 499.00 /1st year\nUS $ 399.00 /2nd year\nUS $ 299.00 /3rd year onwards\nUS $ 49.90 /month\n\n                         INDIVIDUAL CUSTOMERS\nUS $ 149.00 /1st year\nUS $ 119.00 /2nd year\nUS $ 89.00 /3rd yr onwards\nUS $ 14.90 /month \n",
+    "icons": "IntelliJ IDEA.png"
   },
   {
     "name": "Autodesk Maya",
     "webPage": "http://www.autodesk.com/products/maya/overview",
     "description": "Maya® 3D animation, modeling, simulation, rendering, and compositing software offers a comprehensive creative feature set on a highly extensible production platform. Maya provides high-end character and effects toolsets along with increased productivity for modeling, texturing, and shader creation tasks. \n",
-    "servicesfeatures": "Animation\r\nModeling\r\nRendering \n",
+    "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": "Mac\nWindows \n",
     "category": "Animation",
     "trialPeriod": "1 month",
-    "price": "Monthly : $185.00 \r\n1 Year : $1,470.00 \r\n2 Year : $2,793.00 \r\n2 Year : $3,969.00 \n"
+    "price": "Monthly : $185.00 \r\n1 Year : $1,470.00 \r\n2 Year : $2,793.00 \r\n2 Year : $3,969.00 \n",
+    "icons": "Autodesk Maya.jpg"
   },
   {
     "name": "Houdini FX ",
@@ -207,47 +228,52 @@
     "type": "- \n",
     "category": "Animation",
     "trialPeriod": "30 days",
-    "price": "Local access license : $6995, Annual Upgrade Plan : $3995. \r\nGlobal access license : $8995, Annual Upgrade Plan : $4995. \r\nAnnual Rental : $5995, Monthly Rental : $2195. \n"
+    "price": "Local access license : $6995, Annual Upgrade Plan : $3995. \r\nGlobal access license : $8995, Annual Upgrade Plan : $4995. \r\nAnnual Rental : $5995, Monthly Rental : $2195. \n",
+    "icons": "Houdini FX.jpg"
   },
   {
     "name": "KeyShot Pro Floating ",
     "webPage": "https://buy.keyshot.com/products/keyshot-pro-floating",
     "description": "KeyShot Pro Floating allows you use KeyShot on several computers while license distribution is managed from a central server machine on your local network using FlexNet by Flexera. The KeyShot user interface makes the 3D rendering and animation process simple and fast. Use 700+ materials, 50+ lighting environments, labels, texture and opacity maps to create exactly the look you need. \n",
-    "servicesfeatures": "Animation\r\nModeling\r\nRendering \n",
+    "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": "- \n",
     "category": "Animation",
     "trialPeriod": "14 days",
-    "price": "$2,995 \n"
+    "price": "$2,995 \n",
+    "icons": "KeyShot Pro Floating.png"
   },
   {
     "name": "Ds Max ",
     "webPage": "http://www.autodesk.com/products/3ds-max/overview",
     "description": "Product Description\n3ds Max® 3D modeling software provides a comprehensive modeling, animation, simulation, and rendering solution for games, film, and motion graphics artists. 3ds Max delivers efficient new tools, accelerated performance, and streamlined workflows to help increase overall productivity for working with complex, high-resolution assets. \n",
-    "servicesfeatures": "Animation\r\nModeling\r\nRendering \n",
+    "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": "- \n",
     "category": "Animation",
     "trialPeriod": "30 days",
-    "price": "$1,470\r\n\r\nMonthly * \r\n$185 SRP† \r\nQuarterly * \r\n$460 SRP† \r\nAnnually * \r\n$1,470 SRP† \r\n2 Year \r\n$2,793.00 \r\n3 year \r\n$3,969 \n"
+    "price": "$1,470\r\n\r\nMonthly * \r\n$185 SRP† \r\nQuarterly * \r\n$460 SRP† \r\nAnnually * \r\n$1,470 SRP† \r\n2 Year \r\n$2,793.00 \r\n3 year \r\n$3,969 \n",
+    "icons": "Ds Max.png"
   },
   {
     "name": "Vue xStream ",
     "webPage": "http://www.e-onsoftware.com/",
     "description": "Vue xStream offers professional CG artists a complete toolset for creating and rendering exceptionally rich and realistic natural environments in 3ds Max, Maya, LightWave, Cinema 4D and Softimage. \nAccess all the power of the world's leading 3D Digital Nature solution directly from within your favorite application. Create and edit beautifully detailed natural environments using your application's standard manipulators. \n",
-    "servicesfeatures": "Animation\r\nModeling\r\nRendering \n",
+    "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": "- \n",
     "category": "Animation",
     "trialPeriod": "30 days",
-    "price": "$1,695\r\nfor US/Canada:- US$1,695 \r\nfor Europe:- 1394.00* \n"
+    "price": "$1,695\r\nfor US/Canada:- US$1,695 \r\nfor Europe:- 1394.00* \n",
+    "icons": "Vue xStream.jpg"
   },
   {
     "name": "Modo ",
     "webPage": "https://modo.thefoundry.co.uk/",
     "description": "MODO’s powerful and flexible 3D modeling, texturing and rendering toolset lets you explore and develop your ideas without jumping through technical hoops, so you can iterate freely to realize your full creative potential. \nWhether you’re creating real-time content for immersive experiences like games or virtual reality; iterating on concepts or crafting final production meshes for product design; using 3D to communicate, visualize or sell an idea \n",
-    "servicesfeatures": "Animation\r\nModeling\r\nRendering \n",
+    "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": "- \n",
     "category": "Animation",
     "trialPeriod": "30 days",
-    "price": "$1,799 \n"
+    "price": "$1,799 \n",
+    "icons": "Modo.jpg"
   },
   {
     "name": "EIAS 3D ",
@@ -257,7 +283,8 @@
     "type": "- \n",
     "category": "Animation",
     "trialPeriod": "-",
-    "price": "$895 \n"
+    "price": "$895 \n",
+    "icons": "EIAS 3D.jpg"
   },
   {
     "name": "Visual Studio",
@@ -267,7 +294,8 @@
     "type": "- \n",
     "category": "Development",
     "trialPeriod": "30 days\r\n+60 days(signing in)",
-    "price": "Community - Free\r\nProfessional- $539/year\r\nEnterprise - $2.999/year \n"
+    "price": "Community - Free\r\nProfessional- $539/year\r\nEnterprise - $2.999/year \n",
+    "icons": "Visual Studio.png"
   },
   {
     "name": "Angular js",
@@ -277,7 +305,8 @@
     "type": "- \n",
     "category": "Development",
     "trialPeriod": "-",
-    "price": "Free \n"
+    "price": "Free \n",
+    "icons": "Angular js.png"
   },
   {
     "name": "React js",
@@ -287,7 +316,8 @@
     "type": "- \n",
     "category": "Development",
     "trialPeriod": "-",
-    "price": "Free \n"
+    "price": "Free \n",
+    "icons": "React js.png"
   },
   {
     "name": "Node js",
@@ -297,7 +327,8 @@
     "type": "- \n",
     "category": "Development",
     "trialPeriod": "-",
-    "price": "Free \n"
+    "price": "Free \n",
+    "icons": "Node js.jpg"
   },
   {
     "name": "Microsoft SQL Server",
@@ -307,7 +338,8 @@
     "type": "- \n",
     "category": "Database management ",
     "trialPeriod": "-",
-    "price": "Enterprise - $14.256\r\nStandard - $3,717\r\nExpress - Free\r\nDeveloper- Free \n"
+    "price": "Enterprise - $14.256\r\nStandard - $3,717\r\nExpress - Free\r\nDeveloper- Free \n",
+    "icons": "Microsoft SQL Server.jpg"
   },
   {
     "name": "MariaDB",
@@ -317,7 +349,8 @@
     "type": "- \n",
     "category": "Database management ",
     "trialPeriod": "-",
-    "price": "Free \n"
+    "price": "Free \n",
+    "icons": "MariaDB.jpg"
   },
   {
     "name": "OracleDB",
@@ -327,7 +360,8 @@
     "type": "- \n",
     "category": "Database management ",
     "trialPeriod": "30 days",
-    "price": " User-based\n$950/per user\nSoftware update and support price: 209 $\n                                 Processor based \n7,500 $/Processor license \nSoftware update and support price: 10,450 $ \n"
+    "price": " User-based\n$950/per user\nSoftware update and support price: 209 $\n                                 Processor based \n7,500 $/Processor license \nSoftware update and support price: 10,450 $ \n",
+    "icons": "OracleDB.jpg"
   },
   {
     "name": "MySQL",
@@ -337,7 +371,8 @@
     "type": "- \n",
     "category": "Database management ",
     "trialPeriod": "-",
-    "price": "Community - Free\nStandard -  $2000\nEnterprise  - $5000\nCluster Carrier Grade - $10,000 \n"
+    "price": "Community - Free\nStandard -  $2000\nEnterprise  - $5000\nCluster Carrier Grade - $10,000 \n",
+    "icons": "MySQL.png"
   },
   {
     "name": "Colibri",
@@ -347,7 +382,8 @@
     "type": "Web-based \n",
     "category": "SEO",
     "trialPeriod": "14 days",
-    "price": "Starting from: $15.00/month \n"
+    "price": "Starting from: $15.00/month \n",
+    "icons": "Colibri.png"
   },
   {
     "name": "WooRank",
@@ -357,7 +393,8 @@
     "type": "iPhone-iPad\nMac\nLinux\nWindows\nWindows Phone\nWeb-based\nMobile Web App \n",
     "category": "SEO",
     "trialPeriod": "14 days",
-    "price": "Starting from:$49.00/month \n"
+    "price": "Starting from:$49.00/month \n",
+    "icons": "WooRank.png"
   },
   {
     "name": "Ahrefs",
@@ -367,7 +404,8 @@
     "type": "Web-based \n",
     "category": "SEO",
     "trialPeriod": "7 days for 7$",
-    "price": "Lite - $99\r\nStandard - $179\r\nAdvanced - $399\r\nAgency - $999 \n"
+    "price": "Lite - $99\r\nStandard - $179\r\nAdvanced - $399\r\nAgency - $999 \n",
+    "icons": "Ahrefs.jpg"
   },
   {
     "name": "Majestic",
@@ -377,7 +415,8 @@
     "type": "Web-based \n",
     "category": "SEO",
     "trialPeriod": "-",
-    "price": "Silver - $78.99 per month (paid monthly), $49.99 per month (paid quarterly), or $41.66 per month (paid annually)\nGold - $169.99 per month (monthly) or $141.66 per month (annually)\nPlatinum - $399.99 per month (monthly) or $333.33 per month (annually)\nTwo additional enterprise plans are also available: The 500 ($799.98 per month) and The 1000 ($1599.96 per month) \n"
+    "price": "Silver - $78.99 per month (paid monthly), $49.99 per month (paid quarterly), or $41.66 per month (paid annually)\nGold - $169.99 per month (monthly) or $141.66 per month (annually)\nPlatinum - $399.99 per month (monthly) or $333.33 per month (annually)\nTwo additional enterprise plans are also available: The 500 ($799.98 per month) and The 1000 ($1599.96 per month) \n",
+    "icons": "Majestic.png"
   },
   {
     "name": "Moz",
@@ -387,7 +426,8 @@
     "type": "Web-based \n",
     "category": "SEO",
     "trialPeriod": "30 days",
-    "price": "Standard - $99\r\nMedium - $149\r\nLarge - $249\r\nPremium - $599 \n"
+    "price": "Standard - $99\r\nMedium - $149\r\nLarge - $249\r\nPremium - $599 \n",
+    "icons": "Moz.png"
   },
   {
     "name": "SemRush",
@@ -397,7 +437,8 @@
     "type": "Web-based \n",
     "category": "SEO",
     "trialPeriod": "14 days",
-    "price": "PRO - $79.95/month\r\nPRO (recurring)  - $69.95/month\r\nGuru (recurring) - $149.95/month\r\nEnterprise (recurring) - $499/month \n"
+    "price": "PRO - $79.95/month\r\nPRO (recurring)  - $69.95/month\r\nGuru (recurring) - $149.95/month\r\nEnterprise (recurring) - $499/month \n",
+    "icons": "SemRush.png"
   },
   {
     "name": "SEO PowerSuite",
@@ -407,7 +448,8 @@
     "type": "Mac\nLinux\nWindows \n",
     "category": "SEO",
     "trialPeriod": "-",
-    "price": "Standard - Free\r\nProfessional -$299\r\nEnterprise - $699 \n"
+    "price": "Standard - Free\r\nProfessional -$299\r\nEnterprise - $699 \n",
+    "icons": "SEO PowerSuite.png"
   },
   {
     "name": "Raven",
@@ -417,7 +459,8 @@
     "type": "Web-based \n",
     "category": "SEO",
     "trialPeriod": "30 days",
-    "price": "Start -$27/month\r\nGrow - $57/month\r\nPro - $107/month \n"
+    "price": "Start -$27/month\r\nGrow - $57/month\r\nPro - $107/month \n",
+    "icons": "Raven.png"
   },
   {
     "name": "Agency Analytics",
@@ -427,7 +470,8 @@
     "type": "Web-based\nMobile Web App \n",
     "category": "SEO",
     "trialPeriod": "14 days",
-    "price": "Freelancer: $49/month (paid monthly) or $33/month (paid annually) - 10 campaigns, 500 keywords, 10000 backlinks.\nAgency: $99/month (monthly) or $67/month (annually) - 30 campaigns, 1000 keywords, 50000 backlinks.\nEnterprise: $249/month (monthly) or $167/month (annually) - 100 campaigns, 2500 keywords, 150000 backlinks.\nUnlimited: $499/month (monthly) or $333/month (annually) - unlimited campaigns, 5000 keywords, 300000 backlinks. \n"
+    "price": "Freelancer: $49/month (paid monthly) or $33/month (paid annually) - 10 campaigns, 500 keywords, 10000 backlinks.\nAgency: $99/month (monthly) or $67/month (annually) - 30 campaigns, 1000 keywords, 50000 backlinks.\nEnterprise: $249/month (monthly) or $167/month (annually) - 100 campaigns, 2500 keywords, 150000 backlinks.\nUnlimited: $499/month (monthly) or $333/month (annually) - unlimited campaigns, 5000 keywords, 300000 backlinks. \n",
+    "icons": "Agency Analytics.jpg"
   },
   {
     "name": "Google Analytics",
@@ -437,7 +481,8 @@
     "type": "Web-based \n",
     "category": "SEO",
     "trialPeriod": "-",
-    "price": "Free\nPremium - $150,000/year \n"
+    "price": "Free\nPremium - $150,000/year \n",
+    "icons": "Google Analytics.png"
   },
   {
     "name": "Analytics SEO",
@@ -447,7 +492,8 @@
     "type": "Mac\nLinux\nWindows\nWeb-based",
     "category": "SEO",
     "trialPeriod": "-",
-    "price": "£20/per domain\n£99/month for 5 domains \n"
+    "price": "£20/per domain\n£99/month for 5 domains \n",
+    "icons": "Analytics SEO.png"
   },
   {
     "name": "Positionly",
@@ -457,7 +503,8 @@
     "type": "Android\niPhone-iPad\niPhone\nWeb-based \n",
     "category": "SEO",
     "trialPeriod": "14 days",
-    "price": "Personal - $19/Month\r\nPremium - $49/Month\r\nPlus - $99/Month\r\nEnterprise: - $199/Month \n"
+    "price": "Personal - $19/Month\r\nPremium - $49/Month\r\nPlus - $99/Month\r\nEnterprise: - $199/Month \n",
+    "icons": "Positionly.png"
   },
   {
     "name": "Sisense",
@@ -467,7 +514,8 @@
     "type": "Windows\nWindows Phone\nWeb-based\nMobile Web App \n",
     "category": "BI Software",
     "trialPeriod": "Available",
-    "price": "Please contact Sisense for pricing information \n"
+    "price": "Please contact Sisense for pricing information \n",
+    "icons": "Sisense.png"
   },
   {
     "name": "Looker",
@@ -477,7 +525,8 @@
     "type": "Mac\nWindows\nWeb-based \n",
     "category": "BI Software",
     "trialPeriod": "Available",
-    "price": "Please contact Looker for pricing information \n"
+    "price": "Please contact Looker for pricing information \n",
+    "icons": "Looker.png"
   },
   {
     "name": "Zoho",
@@ -487,7 +536,8 @@
     "type": "Android\niPhone-iPad\niPad\nWeb-based\nMobile Web App \n",
     "category": "BI Software",
     "trialPeriod": "15 days",
-    "price": "Free for 2 users, 100,000 rows \r\nStandard (5 users, 500,000 rows) $50\r\nProfessional (10 users, 1,000,000 rows) $90\r\nProfessional Plus (20 users, 2,000,000 rows) $140\r\nEnterprise (50 users, 25,000,000 rows) $495 \n"
+    "price": "Free for 2 users, 100,000 rows \r\nStandard (5 users, 500,000 rows) $50\r\nProfessional (10 users, 1,000,000 rows) $90\r\nProfessional Plus (20 users, 2,000,000 rows) $140\r\nEnterprise (50 users, 25,000,000 rows) $495 \n",
+    "icons": "Zoho.png"
   },
   {
     "name": "TIBCO Spotfire",
@@ -497,7 +547,8 @@
     "type": "Android\niPhone-iPad\niPhone\niPad\nMac\nWindows\nWeb-based \n",
     "category": "BI Software",
     "trialPeriod": "30 days",
-    "price": "TIBCO Spotfire Desktop: $650 per year\nTIBCO Spotfire Cloud: $200 per month, $2000 per year\nTIBCO Spotfire Platform: Contact sales for price quote. \n"
+    "price": "TIBCO Spotfire Desktop: $650 per year\nTIBCO Spotfire Cloud: $200 per month, $2000 per year\nTIBCO Spotfire Platform: Contact sales for price quote. \n",
+    "icons": "TIBCO Spotfire.png"
   },
   {
     "name": "Leftronic",
@@ -507,7 +558,8 @@
     "type": "Web-based \n",
     "category": "BI Software",
     "trialPeriod": "14 days",
-    "price": "2 Dashboards\n$49/mo $499/yr - All data sources,Custom data API,Unlimited dashboard sharing,Email your dashboards,Email Support\n5 Dashboards\n$99/mo $999/yr - Same as above plus:Dashboard groups,Custom CSS,Custom branding\n10 Dashboards\n$169/mo $1699/yr - same as above plus:API data encryption\n20 Dashboards\n$299/mo $2999/yr - same as above plus:phone support\nEnterprise or agency plans with white label options available by request. \n"
+    "price": "2 Dashboards\n$49/mo $499/yr - All data sources,Custom data API,Unlimited dashboard sharing,Email your dashboards,Email Support\n5 Dashboards\n$99/mo $999/yr - Same as above plus:Dashboard groups,Custom CSS,Custom branding\n10 Dashboards\n$169/mo $1699/yr - same as above plus:API data encryption\n20 Dashboards\n$299/mo $2999/yr - same as above plus:phone support\nEnterprise or agency plans with white label options available by request. \n",
+    "icons": "Leftronic.png"
   },
   {
     "name": "Alteryx",
@@ -517,7 +569,8 @@
     "type": "Windows \n",
     "category": "BI Software",
     "trialPeriod": "14 days",
-    "price": "Alteryx Designer: $3,995 per user, per year (3-Year Subscription), $5,194 per user, per year (1-Year Subscription)\r\nAlteryx Server: $45,000 per server, per year (3-Year Subscription), $58,500 per server, per year (1-Year Subscription)\r\nAlteryx Analytics Gallery: $1,500 per user, per year (3-Year Subscription), $1,950 per user, per year (1-Year Subscription) \n"
+    "price": "Alteryx Designer: $3,995 per user, per year (3-Year Subscription), $5,194 per user, per year (1-Year Subscription)\r\nAlteryx Server: $45,000 per server, per year (3-Year Subscription), $58,500 per server, per year (1-Year Subscription)\r\nAlteryx Analytics Gallery: $1,500 per user, per year (3-Year Subscription), $1,950 per user, per year (1-Year Subscription) \n",
+    "icons": "Alteryx.png"
   },
   {
     "name": "Bime",
@@ -527,7 +580,8 @@
     "type": "Mac\nWindows\nWindows Phone\nWeb-based \n",
     "category": "BI Software",
     "trialPeriod": "14 days",
-    "price": "Base Plan - $490/month\r\nBig Data Plan - $690/month\r\nTwo user licenses come with above platform fee. Each additional user is $90/month, and each additional viewer is $9/month. \n"
+    "price": "Base Plan - $490/month\r\nBig Data Plan - $690/month\r\nTwo user licenses come with above platform fee. Each additional user is $90/month, and each additional viewer is $9/month. \n",
+    "icons": "Bime.png"
   },
   {
     "name": "RJMetrics",
@@ -537,7 +591,8 @@
     "type": "Mac\nLinux\nWindows\nWindows Phone\nWeb-based\nMobile Web App \n",
     "category": "BI Software",
     "trialPeriod": "7 days",
-    "price": "Basic - $500/month      \r\nPremier - $2000/month\r\nEnterprise  - Contact sales for price quote \n"
+    "price": "Basic - $500/month      \r\nPremier - $2000/month\r\nEnterprise  - Contact sales for price quote \n",
+    "icons": "RJMetrics.jpg"
   },
   {
     "name": "SAP BusinessObjects",
@@ -547,7 +602,8 @@
     "type": "Android\niPhone-iPad\niPhone\niPad\nWeb-based \n",
     "category": "BI Software",
     "trialPeriod": "30 days",
-    "price": "Please contact SAP for pricing information \n"
+    "price": "Please contact SAP for pricing information \n",
+    "icons": "SAP BusinessObjects.png"
   },
   {
     "name": "Birst",
@@ -557,7 +613,8 @@
     "type": "iPhone-iPad\niPhone\niPad\nWindows Phone\nWeb-based\nMobile Web App",
     "category": "BI Software",
     "trialPeriod": "-",
-    "price": " $30,000/per 20 users/per year \n"
+    "price": " $30,000/per 20 users/per year \n",
+    "icons": "Birst.jpg"
   },
   {
     "name": "MyHub Intranet",
@@ -567,7 +624,8 @@
     "type": "Web-based\nMobile Web App \n",
     "category": "Collaboration Software",
     "trialPeriod": "14 days",
-    "price": "Unlimited - $99/per month\r\nNot For Profit* - $85/per month \n"
+    "price": "Unlimited - $99/per month\r\nNot For Profit* - $85/per month \n",
+    "icons": "MyHub Intranet.png"
   },
   {
     "name": "LeanKit",
@@ -577,7 +635,8 @@
     "type": "Android\niPhone-iPad\niPhone\niPad\nWeb-based \n",
     "category": "Collaboration Software",
     "trialPeriod": "30 days",
-    "price": "Standard Edition - $12 / month / user*\r\nSelect Edition - $19 / month / user*\r\nAdvanced Edition - $32 / month / user*\r\nPremium Edition - $49 / month / user* \n"
+    "price": "Standard Edition - $12 / month / user*\r\nSelect Edition - $19 / month / user*\r\nAdvanced Edition - $32 / month / user*\r\nPremium Edition - $49 / month / user* \n",
+    "icons": "LeanKit.jpg"
   },
   {
     "name": "Community Cloud",
@@ -587,7 +646,8 @@
     "type": "Mac\nLinux\nWindows\nWindows Phone\nWeb-based\nMobile Web App \n",
     "category": "Collaboration Software",
     "trialPeriod": "30 days",
-    "price": "Customer Community - Starting at $250/month\r\nPartner Community - Starting at $500/month\r\nEmployee Community - Starting at $25/user/month \n"
+    "price": "Customer Community - Starting at $250/month\r\nPartner Community - Starting at $500/month\r\nEmployee Community - Starting at $25/user/month \n",
+    "icons": "CommuniGator.jpg"
   },
   {
     "name": "Freshservice ServiceDesk",
@@ -597,7 +657,8 @@
     "type": "Android\niPhone-iPad\niPhone\niPad\nWeb-based \n",
     "category": "Collaboration Software",
     "trialPeriod": "Blossom - 30 days \r\nGarden - 30 days\r\nEstate - 30 days",
-    "price": "Sprout - $0 - FREE up to 3 agents and up to 100 assets. \nBlossom - $29/agent/month. \nGarden - $49/agent/month.\nEstate - $79/agent/month.\nFor Blossom, Garden and Estate Plans, you can purchase additional assets at 20 cents/asset/month. \n"
+    "price": "Sprout - $0 - FREE up to 3 agents and up to 100 assets. \nBlossom - $29/agent/month. \nGarden - $49/agent/month.\nEstate - $79/agent/month.\nFor Blossom, Garden and Estate Plans, you can purchase additional assets at 20 cents/asset/month. \n",
+    "icons": "Freshservice ServiceDesk.png"
   },
   {
     "name": "Bolste",
@@ -607,7 +668,8 @@
     "type": "Mac\nLinux\nWindows\nWindows Phone\nWeb-based\nMobile Web App \n",
     "category": "Collaboration Software",
     "trialPeriod": "Available",
-    "price": "Bolste PRO: $9.99/user/month\r\nBolste CORPORATE: Please contact Bolste for a custom quote. \n"
+    "price": "Bolste PRO: $9.99/user/month\r\nBolste CORPORATE: Please contact Bolste for a custom quote. \n",
+    "icons": "Bolste.png"
   },
   {
     "name": "Bynder",
@@ -617,7 +679,8 @@
     "type": "iPhone\nWeb-based\niPad\nMobile Web App \n",
     "category": "Collaboration Software",
     "trialPeriod": "Essential - 14 days\r\nTeam - 14 days",
-    "price": "Essential - $450/month\nTeam - $1250/month\nCorporate - 2250/month \n"
+    "price": "Essential - $450/month\nTeam - $1250/month\nCorporate - 2250/month \n",
+    "icons": "Bynder.jpg"
   },
   {
     "name": "Atlassian Confluence",
@@ -627,17 +690,19 @@
     "type": "iPhone-iPad\niPhone\nMac\nLinux\nWindows\nWeb-based \n",
     "category": "Collaboration Software",
     "trialPeriod": "7 days",
-    "price": "Small teams - $10/per month/10 user\nGrowing teams - $50/per month/15 users \n"
+    "price": "Small teams - $10/per month/10 user\nGrowing teams - $50/per month/15 users \n",
+    "icons": "Atlassian Confluence.png"
   },
   {
     "name": "RealFlow",
     "webPage": "realflow.com",
     "description": "RealFlow is Industry-standard, out-of-the-box fluid simulation software. Fast and easy to use.Compatible with all major 3D platforms.The definitive fluid simulation software for over 15 years. Award winning (including the Technical Achievement Award granted by The Academy of Motion Picture Arts and Sciences) \n",
-    "servicesfeatures": "Animation\r\nModeling\r\nRendering \n",
+    "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": "Mac\nWindows\nLinux \n",
     "category": "Animation",
     "trialPeriod": "30 days",
-    "price": "RealFlow | Cinema 4D $495 \r\nRealFlow 2015 $2095 \r\nRealFlow Starter Pack $2895 \r\nREalFlow Premium Pack $4295 \n"
+    "price": "RealFlow | Cinema 4D $495 \r\nRealFlow 2015 $2095 \r\nRealFlow Starter Pack $2895 \r\nREalFlow Premium Pack $4295 \n",
+    "icons": "RealFlow.png"
   },
   {
     "name": "Harmony",
@@ -647,7 +712,8 @@
     "type": "Mac\nWindows \n",
     "category": "Animation",
     "trialPeriod": "21 days",
-    "price": "Essentials : $15 Monthly ( $180 annual billing) \nAdvanced : $38 Monthly ( $456 annual billing) \nPremium : $73 Monthly ( $876 annual billing) \n"
+    "price": "Essentials : $15 Monthly ( $180 annual billing) \nAdvanced : $38 Monthly ( $456 annual billing) \nPremium : $73 Monthly ( $876 annual billing) \n",
+    "icons": "Harmony.png"
   },
   {
     "name": "TVPaint",
@@ -657,47 +723,52 @@
     "type": "Mac\nWindows\nLinux \n",
     "category": "Animation",
     "trialPeriod": "30 days",
-    "price": "Upgrade License :- $706.69 \n"
+    "price": "Upgrade License :- $706.69 \n",
+    "icons": "TVPaint.png"
   },
   {
     "name": "Cinema 4D Prime R17",
     "webPage": "maxon.net",
     "description": "CINEMA 4D Prime's intuitive interface is designed to ease you in to the powerful and exciting world of 3D graphics. With CINEMA 4D Prime you can start creating great-looking 3D images in no time. And the tutorials provided help you learn CINEMA 4D quickly and easily. Adding CINEMA 4D Prime to your existing pipeline of 2D applications opens up a wealth of new design possibilities. CINEMA 4D Prime lets you cost-effectively enter the world of 3D. \n",
-    "servicesfeatures": "Animation\r\nModeling\r\nRendering \n",
+    "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": "Mac\nWindows \n",
     "category": "Animation",
     "trialPeriod": "42 days",
-    "price": "Cinema 4D Prime $995.00 \r\nCinema 4D Prime Multi-License (min 3 licenses) $795.00 \r\nCinema 4D Prime Upgrade $395.00 \n"
+    "price": "Cinema 4D Prime $995.00 \r\nCinema 4D Prime Multi-License (min 3 licenses) $795.00 \r\nCinema 4D Prime Upgrade $395.00 \n",
+    "icons": "Cinema 4D Prime R17.png"
   },
   {
     "name": "LightWave",
     "webPage": "lightwave3d.com",
     "description": "LightWave 3D combines a state-of-the-art renderer with powerful, intuitive modeling, and animation tools. Tools that may cost extra in other professional 3D applications are part of the product package, including 999 free cross-platform render nodes, support for Windows and Mac UB 64 and 32-bit operating systems, free technical support and more. LightWave is enjoyed worldwide, as a complete 3D production solution for feature film and television visual effects, broadcast design, print graphics. \n",
-    "servicesfeatures": "Animation\r\nModeling\r\nRendering \n",
+    "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": "Mac\nWindows \n",
     "category": "Animation",
     "trialPeriod": "90 days",
-    "price": "$395 (USD) Commercial Upgrade \r\n$95 (USD) Educational Upgrade \r\n$295 (USD) 5-Seat Lab Pack Upgrade \r\n$195 (USD) Full Educational \r\n$795 (USD) Educational 5-Seat Lab Pack \n"
+    "price": "$395 (USD) Commercial Upgrade \r\n$95 (USD) Educational Upgrade \r\n$295 (USD) 5-Seat Lab Pack Upgrade \r\n$195 (USD) Full Educational \r\n$795 (USD) Educational 5-Seat Lab Pack \n",
+    "icons": "LightWave.jpg"
   },
   {
     "name": "iClone 6",
     "webPage": "http://www.reallusion.com/iclone/default.html",
     "description": "iClone 6 is real-time 3D animation for digital actors, virtual environments, visual effects with drag & drop editing, powerful physics and easy plug-in compatibility, designed for creativity in storytelling and broadcast production, education & previzualization. Professionals and beginners can take advantage of tons of pre-made content and smart interactivity between actors and environment that make animation fun and intuitive. \n",
-    "servicesfeatures": "Animation\r\nModeling\r\nRendering \n",
+    "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": "Windows \n",
     "category": "Animation",
     "trialPeriod": "30 days",
-    "price": "Standart - $99\r\nPRO - $149\r\niClone 6 PRO Bundle - $249\r\niClone 6 Chara cter Creator Deluxe Suite - $349\r\niClone 6 Animation Pipeline - $599\r\niClone 6 Studio Pipeline Suite - $699\r\niClone Perception Neuron Mocap Live Solo - $699\r\niClone Perception Neuron Mocap Live Duo - $799 \n"
+    "price": "Standart - $99\r\nPRO - $149\r\niClone 6 PRO Bundle - $249\r\niClone 6 Chara cter Creator Deluxe Suite - $349\r\niClone 6 Animation Pipeline - $599\r\niClone 6 Studio Pipeline Suite - $699\r\niClone Perception Neuron Mocap Live Solo - $699\r\niClone Perception Neuron Mocap Live Duo - $799 \n",
+    "icons": "iClone 6.png"
   },
   {
     "name": "Carrara 8.5",
     "webPage": "daz3d.com",
     "description": "Carrara 8.5 offers the latest in DAZ technology. Our software engineers have worked meticulously to ensure that the new features in Carrara 8.5 exceed the standard you've come to expect for Carrara. Carrara 8.5 provides seamless support for the Genesis and Genesis 2 figures you know and love. The new parameters tab grants intuitive access to morphs for your figures and allows you to filter by region, body part, and even keyword. \n",
-    "servicesfeatures": "Animation\r\nModeling\r\nRendering \n",
+    "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": "Mac\nWindows \n",
     "category": "Animation",
     "trialPeriod": "30 days",
-    "price": "Pro - $285 \n"
+    "price": "Pro - $285 \n",
+    "icons": "Carrara 8.5.png"
   },
   {
     "name": "Darcy Ripper",
@@ -707,7 +778,8 @@
     "type": "Mac\nLinux\nWindows \n",
     "category": "Web scraping",
     "trialPeriod": "-",
-    "price": "Free \n"
+    "price": "Free \n",
+    "icons": "Darcy Ripper.png"
   },
   {
     "name": "Import",
@@ -717,7 +789,8 @@
     "type": "Windows \n",
     "category": "Web scraping",
     "trialPeriod": "Available",
-    "price": "Free\r\nEssential - $249\r\nProffessional - $399\r\nEnterprise - $799 \n"
+    "price": "Free\r\nEssential - $249\r\nProffessional - $399\r\nEnterprise - $799 \n",
+    "icons": "Import.png"
   },
   {
     "name": "Octoparse",
@@ -727,7 +800,8 @@
     "type": "Windows \n",
     "category": "Web scraping",
     "trialPeriod": "Available",
-    "price": "Basic - free\r\nStandart Plan - 89/month,$890/year\r\nProfessional Plan - 189/month,$1890/year\r\nCustom - please contact for more information \n"
+    "price": "Basic - free\r\nStandart Plan - 89/month,$890/year\r\nProfessional Plan - 189/month,$1890/year\r\nCustom - please contact for more information \n",
+    "icons": "Octoparse.jpg"
   },
   {
     "name": "Visual Web Ripper",
@@ -737,7 +811,8 @@
     "type": "Windows \n",
     "category": "Web scraping",
     "trialPeriod": "15 days",
-    "price": "Single User License - $349\r\n2 Seat License\r\n5 Seat License\r\n10 Seat License\r\n2-5 Single User Licenses (after your first purchase)\r\nMore than 5 Single User Licenses (after your fifth purchase) \n"
+    "price": "Single User License - $349\r\n2 Seat License\r\n5 Seat License\r\n10 Seat License\r\n2-5 Single User Licenses (after your first purchase)\r\nMore than 5 Single User Licenses (after your fifth purchase) \n",
+    "icons": "Visual Web Ripper.png"
   },
   {
     "name": "WebSundew",
@@ -747,7 +822,8 @@
     "type": "Windows \n",
     "category": "Web scraping",
     "trialPeriod": "15 days",
-    "price": "starting from $99 (Lite) up to $2499 for Enterprise edition. \n"
+    "price": "starting from $99 (Lite) up to $2499 for Enterprise edition. \n",
+    "icons": "WebSundew.png"
   },
   {
     "name": "Scraper(Chrome Extension)",
@@ -757,7 +833,8 @@
     "type": "Web-based \n",
     "category": "Web scraping",
     "trialPeriod": "-",
-    "price": "Free \n"
+    "price": "Free \n",
+    "icons": "Scraper(Chrome Extension).jpg"
   },
   {
     "name": "kimono Labs",
@@ -767,7 +844,8 @@
     "type": "Mac\nWindows \n",
     "category": "Web scraping",
     "trialPeriod": "-",
-    "price": "Free \n"
+    "price": "Free \n",
+    "icons": "kimono Labs.png"
   },
   {
     "name": "Skype",
@@ -777,7 +855,8 @@
     "type": "Android\niPhone-iPad\niPhone\nMac\nLinux\nWindows\nWindows Phone \n",
     "category": "Communication software",
     "trialPeriod": "-",
-    "price": "Free\r\nPremium account -  €3.49/month(€4.01 incl. VAT) \n"
+    "price": "Free\r\nPremium account -  €3.49/month(€4.01 incl. VAT) \n",
+    "icons": "Skype.png"
   },
   {
     "name": "Slack",
@@ -787,7 +866,8 @@
     "type": "Android\niPhone-iPad\niPhone\niPad\nMac\nWindows\nWeb-based \n",
     "category": "Communication software",
     "trialPeriod": "Available",
-    "price": "Free Plan: $0\r\nNo limits on time or users\r\n10,000 message searchable archive\r\n5 external service integrations\r\n\r\nStandard Plan\r\n$6.67 per user / month\r\nUnlimited message searchable archive\r\n\r\nPlus: $12.50 per user / month\r\n\r\nEnterprise: Coming Soon \n"
+    "price": "Free Plan: $0\r\nNo limits on time or users\r\n10,000 message searchable archive\r\n5 external service integrations\r\n\r\nStandard Plan\r\n$6.67 per user / month\r\nUnlimited message searchable archive\r\n\r\nPlus: $12.50 per user / month\r\n\r\nEnterprise: Coming Soon \n",
+    "icons": "Slack.png"
   },
   {
     "name": "TeamViewer",
@@ -797,7 +877,8 @@
     "type": "Android\niPhone-iPad\nMac\nLinux\nWindows \n",
     "category": "Communication software",
     "trialPeriod": "14 days",
-    "price": "Private user - free of charge\nBusiness - € 499        ,\nPremium - € 998\nCorporate - € 2.499 (currently € 1.990) \n"
+    "price": "Private user - free of charge\nBusiness - € 499        ,\nPremium - € 998\nCorporate - € 2.499 (currently € 1.990) \n",
+    "icons": "TeamViewer.png"
   },
   {
     "name": "Yammer",
@@ -807,7 +888,8 @@
     "type": "Android\niPhone-iPad\niPhone\niPad\nWindows Phone\nWeb-based \n",
     "category": "Communication software",
     "trialPeriod": "Available",
-    "price": "Yammer Enterprise Standalone\r\n$3 per user/month\r\n\r\nOffice 365 For Business\r\nStarts at $5 per user/month\r\n\r\nOffice 365 For Education\r\nFree and Paid Plans Available \n"
+    "price": "Yammer Enterprise Standalone\r\n$3 per user/month\r\n\r\nOffice 365 For Business\r\nStarts at $5 per user/month\r\n\r\nOffice 365 For Education\r\nFree and Paid Plans Available \n",
+    "icons": "Yammer.png"
   },
   {
     "name": "Campaign Monitor",
@@ -817,6 +899,7 @@
     "type": "iPhone-iPad\niPhone\nMac\nLinux\nWindows\nWindows Phone\nWeb-based\nMobile Web App \n",
     "category": "Communication software",
     "trialPeriod": "14 days",
-    "price": "Basic - $9\r\nUnlimited - $29\r\nPremier - $149"
+    "price": "Basic - $9\r\nUnlimited - $29\r\nPremier - $149",
+    "icons": "Campaign Monitor.png"
   }
 ]

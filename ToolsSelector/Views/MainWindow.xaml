@@ -10,27 +10,118 @@
     <Window.Resources>
         <Views:DistinctConverter x:Key="DistinctConverter"></Views:DistinctConverter>
     </Window.Resources>
-    <Grid>
-        <ComboBox x:Name="categoryCombo" ItemsSource="{Binding x,Mode=OneWay,  Converter={StaticResource DistinctConverter},ConverterParameter=Category}"   DisplayMemberPath="Category" SelectedValuePath="Category" SelectedItem="{Binding SelectedTool}"  HorizontalAlignment="Left" Margin="380,45,0,0" VerticalAlignment="Top" Width="120"  />
-        <Label x:Name="webPageLabel" Content="Web Page" HorizontalAlignment="Left" Margin="70,223,0,0" VerticalAlignment="Top" Width="65" Height="30" RenderTransformOrigin="0.462,2.173"/>
+    <Grid ShowGridLines="True">
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <!--<ScrollBar Margin="200,20,30,0" Width="40" Height="1000" HorizontalContentAlignment="Right" Orientation="Vertical"></ScrollBar>-->
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <WrapPanel Orientation="Vertical"  >
+
+                <Label x:Name="categoryLabel" Content="Category" HorizontalAlignment="left" Margin="35,5,0,0" VerticalAlignment="Top" Width="60"/>
+                <ComboBox x:Name="categoryCombo" ItemsSource="{Binding x, ConverterParameter=Category, Converter={StaticResource DistinctConverter}, Mode=OneWay}"   DisplayMemberPath="Category" SelectedValuePath="Category" SelectedItem="{Binding SelectedTool}"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"  />
+
+
+                <Label x:Name="featuresLabel" Content="Services/Features" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,65,0,0" Width="110"/>
+                <ComboBox x:Name="featuresCombo"  ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=ServicesFeatures}" DisplayMemberPath="ServicesFeatures" SelectedValuePath="ServicesFeatures" SelectedItem="{Binding Tool}" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
+                <Label x:Name="typeLabel" Content="Type" HorizontalAlignment="Left" Margin="45,65,0,0" VerticalAlignment="Top" Width="80">
+                </Label>
+                <ComboBox x:Name="typeCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Type}" DisplayMemberPath="Type" SelectedValuePath="Type" SelectedItem="{Binding Tool}"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
+                <Label x:Name="trialPeriodLabel" Content="Trial Period" HorizontalAlignment="Left" Margin="33,65,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.472,1.594"/>
+                <ComboBox x:Name="trialPeriodCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=TrialPeriod}" DisplayMemberPath="TrialPeriod" SelectedValuePath="TrialPeriod" SelectedItem="{Binding SelectedTool}" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
+                <Label x:Name="priceLabel" Content="Price" HorizontalAlignment="Left" Margin="45,65,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,0.016" Width="60"/>
+                <ComboBox x:Name="priceCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Price}" SelectedItem="{Binding SelectedTool}" DisplayMemberPath="Price" SelectedValuePath="Price"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.295,0.455"/>
+
+            </WrapPanel>
+        </ScrollViewer>
+        <!--<Label x:Name="nameLabel" Content="Name" HorizontalAlignment="Left" Margin="500,100,50,50" VerticalAlignment="Top" RenderTransformOrigin="-0.125,-0.187" Width="60"/>
+        <ComboBox x:Name="nameCombo" ItemsSource="{Binding x, Mode=OneWay}"  DisplayMemberPath="Name" SelectedValuePath="Name"   HorizontalAlignment="Left" Margin="458,122,0,0" VerticalAlignment="Top" Width="120"/>
+
+        <Label x:Name="webPageLabel" Content="Web Page" HorizontalAlignment="Left" Margin="600,223,0,0" VerticalAlignment="Top" Width="65" Height="30" RenderTransformOrigin="0.462,2.173"/>
+        <ComboBox x:Name="webPageCombo" ItemsSource="{Binding x}" DisplayMemberPath="WebPage" SelectedValuePath="WebPage" SelectedItem="{Binding Tool}" HorizontalAlignment="Left" Margin="570,253,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.321"/>
+
         <Label x:Name="descriptionLabel" Content="Description " HorizontalAlignment="Left" Margin="395,228,0,0" VerticalAlignment="Top" Width="75" Height="25" RenderTransformOrigin="0.531,-0.92"/>
-        <ComboBox x:Name="webPageCombo" ItemsSource="{Binding x}" DisplayMemberPath="WebPage" SelectedValuePath="WebPage" SelectedItem="{Binding Tool}" HorizontalAlignment="Left" Margin="40,253,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.321"/>
-        <ComboBox x:Name="descriptionCombo" ItemsSource="{Binding x}" DisplayMemberPath="Description" SelectedValuePath="Description" SelectedItem="{Binding Category}" HorizontalAlignment="Left" Margin="380,253,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="nameLabel" Content="Name" HorizontalAlignment="Left" Margin="70,19,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.125,-0.187" Width="60"/>
-        <ComboBox x:Name="nameCombo" ItemsSource="{Binding x,Mode=OneWay}"  DisplayMemberPath="Name" SelectedValuePath="Name"   HorizontalAlignment="Left" Margin="40,45,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="categoryLabel" Content="Category" HorizontalAlignment="Left" Margin="410,19,0,0" VerticalAlignment="Top" Width="60"/>
-        <Label x:Name="featuresLabel" Content="Services/Features" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,410,0,0" Width="110"/>
-        <Label x:Name="typeLabel" Content="Type" HorizontalAlignment="Left" Margin="760,19,0,0" VerticalAlignment="Top" Width="80">
-            <Label.DataContext>
-                <Views:DistinctConverter/>
-            </Label.DataContext>
-        </Label>
-        <ComboBox x:Name="featuresCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=ServicesFeatures}" DisplayMemberPath="ServicesFeatures" SelectedValuePath="ServicesFeatures" SelectedItem="{Binding Tool}" HorizontalAlignment="Left" Margin="40,435,0,0" VerticalAlignment="Top" Width="120"/>
-        <ComboBox x:Name="typeCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Type}" DisplayMemberPath="Type" SelectedValuePath="Type" SelectedItem="{Binding Tool}"  HorizontalAlignment="Left" Margin="720,45,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="trialPeriodLabel" Content="Trial Period" HorizontalAlignment="Left" Margin="745,227,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.472,1.594"/>
-        <ComboBox x:Name="trialPeriodCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=TrialPeriod}" DisplayMemberPath="TrialPeriod" SelectedValuePath="TrialPeriod" SelectedItem="{Binding SelectedTool}" HorizontalAlignment="Left" Margin="720,253,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="priceLabel" Content="Price" HorizontalAlignment="Left" Margin="410,409,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,0.016" Width="60"/>
-        <ComboBox x:Name="priceCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Price}" SelectedItem="{Binding SelectedTool}" DisplayMemberPath="Price" SelectedValuePath="Price"  HorizontalAlignment="Left" Margin="380,435,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.295,0.455"/>
-        <Button x:Name="refreshButton" Content="Refresh" HorizontalAlignment="Left" Margin="690,410,0,0" VerticalAlignment="Top" Width="150" Height="55" Click="Refresh_Click"/>
+        <ComboBox x:Name="descriptionCombo" ItemsSource="{Binding x}" DisplayMemberPath="Description" SelectedValuePath="Description" SelectedItem="{Binding Category}" HorizontalAlignment="Left" Margin="380,253,0,0" VerticalAlignment="Top" Width="120"/>-->
+        <WrapPanel Orientation="Horizontal" Margin="235,0,-0.4,0.4">
+            <Button x:Name="refreshButton" Content="Refresh" Grid.Column="1" HorizontalAlignment="Left" Margin="250.2,495,-664.4,0" VerticalAlignment="Top" Width="105" Height="44" Click="Refresh_Click"/>
+
+        </WrapPanel>
+        <!--<Image x:Name="marketo" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="20,20,-123.6,0" VerticalAlignment="Top" Width="100" Source="/ToolsSelector;component/Images/Marketo.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/ToolsSelector;component/Images/Marketo.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="pardot" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="140,20,-123.6,0" VerticalAlignment="Top" Width="100" Source="/ToolsSelector;component/Images/Pardot.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/ToolsSelector;component/Images/Pardot.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="hubspot" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="260,20,-123.6,0" VerticalAlignment="Top" Width="100" Source="/ToolsSelector;component/Images/Hubspot.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/ToolsSelector;component/Images/Hubspot.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="genoo" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="380,20,-123.6,0" VerticalAlignment="Top" Width="100" Source="/ToolsSelector;component/Images/Genoo.png"/>
+        <Image x:Name="ontraport" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="500,20,-123.6,0" VerticalAlignment="Top" Width="100" Source="/ToolsSelector;component/Images/Ontraport.jpg">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/ToolsSelector;component/Images/Ontraport.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+
+        <Image x:Name="leadSquared" Grid.Column="1" Height="100" Margin="20,140,0,0" VerticalAlignment="Top" Width="100" Source="/ToolsSelector;component/Images/LeadSquared.png" Cursor="None" ToolTip="" IsEnabled="False" HorizontalAlignment="Left">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/ToolsSelector;component/Images/LeadSquared.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="image7" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="140,140,0,0" VerticalAlignment="Top" Width="100" Source="/ToolsSelector;component/Images/CommuniGator.jpg">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/ToolsSelector;component/Images/CommuniGator.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <ListView x:Name="listView" ItemsSource="{Binding x}" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="309.2,140,0,0" VerticalAlignment="Top" Width="100" Cursor="Hand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Button Command="{Binding ButtonClicked}" CommandParameter="{Binding Description}">
+                        <Image Width="50"
+                               Height="50"
+                               Source="{Binding Icons}"></Image>
+                    </Button>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>-->
+
+        <ListView x:Name="listView1" Grid.Column="1" HorizontalAlignment="Left" Height="455" Margin="0.2,10,-221.2,0" VerticalAlignment="Top" Width="673">
+            <ListViewItem Margin="-550,5,0,0" Width="102">
+                <WrapPanel Width="83">
+                    <Image Source="/ToolsSelector;component/Images/Marketo.png" Width="80"/>
+                    <TextBlock Text="Marketo" Margin="15,0,0,0" Width="78"/>
+                </WrapPanel>
+            </ListViewItem>
+
+            <ListViewItem Margin="-350,-100,0,0" Width="102">
+                <WrapPanel  Width="83" >
+                <Image Source="/ToolsSelector;component/Images/Pardot.png" Height="60"></Image>
+                    <TextBlock Text="Pardot" Margin="22,22,0,0" Width="54" />
+                </WrapPanel>
+            </ListViewItem>
+
+            <ListViewItem Margin="-150,-100,0,0" Width="102">
+                <WrapPanel  Width="83" Height="100">
+                    <Image Source="/ToolsSelector;component/Images/Hubspot.png" Margin="3,10,0,0" Height="30"></Image>
+                    <TextBlock Text="Hubspot" Margin="18,40,0,0" Width="54" Height="19"/>
+                </WrapPanel>
+                
+            </ListViewItem>
+        </ListView>
+
     </Grid>
 </Window>

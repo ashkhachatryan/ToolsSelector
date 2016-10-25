@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace ToolsSelector.Models
 {
@@ -32,5 +34,14 @@ namespace ToolsSelector.Models
 
         [JsonProperty(PropertyName = "price")]
         public string Price { get; set; }
+
+        [JsonProperty(PropertyName ="icons")]
+        public string Icons { get; set; }
+
+       public  static  void ImageSource(string psAssemblyName, string psResourceName)
+        {
+            Uri oUri = new Uri("pack://application:,,,/" + psAssemblyName + ";component/" + psResourceName, UriKind.RelativeOrAbsolute);
+             BitmapFrame.Create(oUri);
+        }
     }
 }
