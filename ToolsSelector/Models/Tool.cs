@@ -38,7 +38,7 @@ namespace ToolsSelector.Models
         [JsonProperty(PropertyName ="icons")]
         public string Icons { get; set; }
 
-        public string Path { get; set; } = "/ToolsSelector;component/Images";
+        public string Path { get; set; } 
 
         public BitmapImage Image { get; set; }
        //public  static  void ImageSource(string psAssemblyName, string psResourceName)

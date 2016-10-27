@@ -107,88 +107,252 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Agency Analytics.jpg" />
-    <Resource Include="Images\Ahrefs.jpg" />
-    <Resource Include="Images\Alteryx.png" />
-    <Resource Include="Images\Analytics SEO.png" />
-    <Resource Include="Images\Angular js.png" />
-    <Resource Include="Images\Atlassian Confluence.png" />
-    <Resource Include="Images\Autodesk Maya.jpg" />
-    <Resource Include="Images\Bime.png" />
-    <Resource Include="Images\Birst.jpg" />
-    <Resource Include="Images\Bolste.png" />
-    <Resource Include="Images\Bootstrap.png" />
-    <Resource Include="Images\Bynder.jpg" />
-    <Resource Include="Images\Campaign Monitor.png" />
-    <Resource Include="Images\Carrara 8.5.png" />
-    <Resource Include="Images\Cinema 4D Prime R17.png" />
-    <Resource Include="Images\Colibri.png" />
-    <Resource Include="Images\CommuniGator.jpg" />
-    <Resource Include="Images\Community Cloud.jpg" />
-    <Resource Include="Images\Darcy Ripper.png" />
-    <Resource Include="Images\DotPeek.png" />
-    <Resource Include="Images\Ds Max.png" />
-    <Resource Include="Images\EIAS 3D.jpg" />
-    <Resource Include="Images\Freshservice ServiceDesk.png" />
-    <Resource Include="Images\Genoo.png" />
-    <Resource Include="Images\Github.png" />
-    <Resource Include="Images\Gliffy.png" />
-    <Resource Include="Images\Google Analytics.png" />
-    <Resource Include="Images\GreenRope.jpg" />
-    <Resource Include="Images\Harmony.png" />
-    <Resource Include="Images\Houdini FX.jpg" />
-    <Resource Include="Images\Hubspot.png" />
-    <Resource Include="Images\iClone 6.png" />
-    <Resource Include="Images\Import.png" />
-    <Resource Include="Images\IntelliJ IDEA.png" />
-    <Resource Include="Images\Jquery.png" />
-    <Resource Include="Images\KeyShot Pro Floating.png" />
-    <Resource Include="Images\kimono Labs.png" />
-    <Resource Include="Images\LeadSquared.png" />
-    <Resource Include="Images\LeanKit.jpg" />
-    <Resource Include="Images\Leftronic.png" />
-    <Resource Include="Images\LightWave.jpg" />
-    <Resource Include="Images\Looker.png" />
-    <Resource Include="Images\Majestic.png" />
-    <Resource Include="Images\MariaDB.jpg" />
-    <Resource Include="Images\Marketo.png" />
-    <Resource Include="Images\Microsoft SQL Server.jpg" />
-    <Resource Include="Images\Modo.jpg" />
-    <Resource Include="Images\Moz.png" />
-    <Resource Include="Images\MyHub Intranet.png" />
-    <Resource Include="Images\MySQL.png" />
-    <Resource Include="Images\Node js.jpg" />
-    <Resource Include="Images\Octoparse.jpg" />
-    <Resource Include="Images\Ontraport.jpg" />
-    <Resource Include="Images\OracleDB.jpg" />
-    <Resource Include="Images\Pardot.png" />
-    <Resource Include="Images\PhpStorm.png" />
-    <Resource Include="Images\Positionly.png" />
-    <Resource Include="Images\Raven.png" />
-    <Resource Include="Images\React js.png" />
-    <Resource Include="Images\RealFlow.png" />
-    <Resource Include="Images\Resharper.png" />
-    <Resource Include="Images\RJMetrics.jpg" />
-    <Resource Include="Images\SAP BusinessObjects.png" />
-    <Resource Include="Images\Sass.png" />
-    <Resource Include="Images\Scraper%28Chrome Extension%29.jpg" />
-    <Resource Include="Images\SemRush.png" />
-    <Resource Include="Images\SEO PowerSuite.png" />
-    <Resource Include="Images\Sisense.png" />
-    <Resource Include="Images\Skype.png" />
-    <Resource Include="Images\Slack.png" />
-    <Resource Include="Images\Sublime.png" />
-    <Resource Include="Images\TeamViewer.png" />
-    <Resource Include="Images\TIBCO Spotfire.png" />
-    <Resource Include="Images\TVPaint.png" />
-    <Resource Include="Images\Visual Studio.png" />
-    <Resource Include="Images\Visual Web Ripper.png" />
-    <Resource Include="Images\Vue xStream.jpg" />
-    <Resource Include="Images\WebStorm.png" />
-    <Resource Include="Images\WebSundew.png" />
-    <Resource Include="Images\WooRank.png" />
-    <Resource Include="Images\Yammer.png" />
-    <Resource Include="Images\Zoho.png" />
+    <Content Include="Images\Agency Analytics.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Ahrefs.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Alteryx.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Analytics SEO.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Angular js.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Atlassian Confluence.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Autodesk Maya.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Bime.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Birst.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Bolste.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Bootstrap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Bynder.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Campaign Monitor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Carrara 8.5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cinema 4D Prime R17.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Colibri.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\CommuniGator.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Community Cloud.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Darcy Ripper.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\DotPeek.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Ds Max.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\EIAS 3D.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Freshservice ServiceDesk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Genoo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Github.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gliffy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Google Analytics.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\GreenRope.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Harmony.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Houdini FX.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hubspot.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\iClone 6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Import.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\IntelliJ IDEA.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Jquery.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\KeyShot Pro Floating.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\kimono Labs.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\LeadSquared.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\LeanKit.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Leftronic.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\LightWave.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Looker.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Majestic.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MariaDB.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Marketo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Microsoft SQL Server.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Modo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Moz.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MyHub Intranet.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MySQL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Node js.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Octoparse.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Ontraport.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OracleDB.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Pardot.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PhpStorm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Positionly.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Raven.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\React js.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\RealFlow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Resharper.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\RJMetrics.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\SAP BusinessObjects.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Sass.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Scraper%28Chrome Extension%29.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\SemRush.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\SEO PowerSuite.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Sisense.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Skype.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Slack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Sublime.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TeamViewer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TIBCO Spotfire.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TVPaint.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Visual Studio.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Visual Web Ripper.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Vue xStream.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\WebStorm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\WebSundew.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\WooRank.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Yammer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Zoho.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

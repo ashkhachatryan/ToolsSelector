@@ -145,7 +145,13 @@
           ScrollViewer.HorizontalScrollBarVisibility="Disabled" Grid.Column="1"        >
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate >
-                    <WrapPanel Orientation="Horizontal"></WrapPanel>
+                    <WrapPanel Orientation="Horizontal" Width="{Binding (FrameworkElement.ActualWidth),
+                        RelativeSource={RelativeSource  AncestorType=ScrollContentPresenter} }"
+                         ItemWidth="{Binding (ListView.View).ItemWidth,RelativeSource={RelativeSource AncestorType=ListView}}"
+                               MinWidth="{Binding ItemWidth, RelativeSource={RelativeSource Self}}"
+                               ItemHeight="{Binding (ListView.View).ItemHeight, 
+                                RelativeSource={RelativeSource AncestorType=ListView}}"/>
+
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
             <ListView.ItemContainerStyle>
@@ -156,8 +162,8 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <Border BorderBrush="#FFE2DDDD" BorderThickness="1" Width="Auto" HorizontalAlignment="Stretch" Padding="5">
-                        <StackPanel Cursor="Hand" Width="100" Background="White">
-                            <Image Width="80" MouseLeftButtonDown="Image_MouseLeftButtonDown" Height="80" Source="{Binding Path}"/>
+                        <StackPanel Cursor="Hand" Width="100" >
+                            <Image Width="80" MouseLeftButtonDown="Image_MouseLeftButtonDown" Height="80"/>
                             <TextBlock Text="{Binding Name}" HorizontalAlignment="Center"></TextBlock>
                         </StackPanel>
                     </Border>

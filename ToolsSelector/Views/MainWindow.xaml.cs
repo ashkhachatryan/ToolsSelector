@@ -90,10 +90,11 @@ namespace ToolsSelector
 
 
             InitializeComponent();
+
             x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
             backup = new List<Tool>(x);
             this.DataContext = this;
-            //ImageLoad();
+            ImageLoad();
 
 
         }
