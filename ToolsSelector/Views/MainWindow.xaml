@@ -14,6 +14,7 @@
         <Grid.Background>
             <ImageBrush/>
         </Grid.Background>
+       
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200"/>
             <ColumnDefinition Width="Auto"/>
@@ -99,7 +100,7 @@
             </ListView.View>
         </ListView>-->
 
-        <ListView x:Name="listView1" Grid.Column="1" HorizontalAlignment="Left" Height="455" Margin="0.2,10,-221.2,0" VerticalAlignment="Top" Width="673">
+        <!--<ListView x:Name="listView1" Grid.Column="1" HorizontalAlignment="Left" Height="455" Margin="0.2,10,-221.2,0" VerticalAlignment="Top" Width="673">
             <ListViewItem Margin="-550,5,0,0" Width="102">
                 <WrapPanel Width="83">
                     <Image Source="/ToolsSelector;component/Images/Marketo.png" Width="80"/>
@@ -109,7 +110,7 @@
 
             <ListViewItem Margin="-350,-100,0,0" Width="102">
                 <WrapPanel  Width="83" >
-                <Image Source="/ToolsSelector;component/Images/Pardot.png" Height="60"></Image>
+                    <Image Source="/ToolsSelector;component/Images/Pardot.png" Height="60"></Image>
                     <TextBlock Text="Pardot" Margin="22,22,0,0" Width="54" />
                 </WrapPanel>
             </ListViewItem>
@@ -119,9 +120,49 @@
                     <Image Source="/ToolsSelector;component/Images/Hubspot.png" Margin="3,10,0,0" Height="30"></Image>
                     <TextBlock Text="Hubspot" Margin="18,40,0,0" Width="54" Height="19"/>
                 </WrapPanel>
-                
             </ListViewItem>
-        </ListView>
 
+            <ListViewItem  Margin="50,-105,0,0" Width="102">
+                <WrapPanel  Width="83" Height="100">
+                    <Image Source="/ToolsSelector;component/Images/Genoo.png" Margin="3,10,0,0" Height="72" Width="76" ></Image>
+                    <TextBlock Text="Genoo" Margin="20,0,0,0" Width="54" Height="19"/>
+
+                </WrapPanel>
+            </ListViewItem>
+
+            <ListViewItem Margin="250,-105,0,0" Width="102">
+                <WrapPanel  Width="83" Height="100">
+                    <Image Source="/ToolsSelector;component/Images/Ontraport.jpg" Margin="3,10,0,0" Height="72" Width="76" ></Image>
+                    <TextBlock Text="Ontraport" Margin="15,0,0,0" Width="54" Height="19"/>
+
+                </WrapPanel>
+            </ListViewItem>
+        </ListView>-->
+
+
+
+        <ListView x:Name="listView" ItemsSource="{Binding x}"   Margin="11.2,10,-191.4,0"  Background="White" VerticalAlignment="Top"
+          ScrollViewer.HorizontalScrollBarVisibility="Disabled" Grid.Column="1"        >
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate >
+                    <WrapPanel Orientation="Horizontal"></WrapPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Padding" Value="0"></Setter>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="#FFE2DDDD" BorderThickness="1" Width="Auto" HorizontalAlignment="Stretch" Padding="5">
+                        <StackPanel Cursor="Hand" Width="100" Background="White">
+                            <Image Width="80" MouseLeftButtonDown="Image_MouseLeftButtonDown" Height="80" Source="{Binding Path}"/>
+                            <TextBlock Text="{Binding Name}" HorizontalAlignment="Center"></TextBlock>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Window>

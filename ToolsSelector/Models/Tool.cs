@@ -38,10 +38,13 @@ namespace ToolsSelector.Models
         [JsonProperty(PropertyName ="icons")]
         public string Icons { get; set; }
 
-       public  static  void ImageSource(string psAssemblyName, string psResourceName)
-        {
-            Uri oUri = new Uri("pack://application:,,,/" + psAssemblyName + ";component/" + psResourceName, UriKind.RelativeOrAbsolute);
-             BitmapFrame.Create(oUri);
-        }
+        public string Path { get; set; } = "/ToolsSelector;component/Images";
+
+        public BitmapImage Image { get; set; }
+       //public  static  void ImageSource(string psAssemblyName, string psResourceName)
+       // {
+       //     Uri oUri = new Uri("pack://application:,,,/" + psAssemblyName + ";component/" + psResourceName, UriKind.RelativeOrAbsolute);
+       //      BitmapFrame.Create(oUri);
+       // }
     }
 }

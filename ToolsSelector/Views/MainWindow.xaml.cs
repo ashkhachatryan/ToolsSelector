@@ -21,12 +21,12 @@ namespace ToolsSelector
     public partial class MainWindow : Window, INotifyPropertyChanged
 
     {
+       
 
         string jsonFile = File.ReadAllText(@"Resources\Json.json");
 
         public List<Tool> x { get; set; }
         public List<Tool> backup { get; set; }
-        public ICommand ButtonClicked { get; set; }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -52,6 +52,37 @@ namespace ToolsSelector
             }
         }
 
+        public void ImageLoad()
+        {
+
+            string root = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            string[] supportedExtensions = new[] { ".bmp", ".jpeg", ".jpg", ".png", ".tiff" };
+            var files = Directory.GetFiles(Path.Combine(root, "Images"), "*.*").Where(s => supportedExtensions.Contains(Path.GetExtension(s).ToLower()));
+
+            foreach (var file in files)
+            {
+                Tool t = new Tool()
+                {
+                    Path = file,
+                    Name = Path.GetFileName(file),
+                };
+
+                BitmapImage img = new BitmapImage();
+                img.BeginInit();
+                img.CacheOption = BitmapCacheOption.OnLoad;
+                img.UriSource = new Uri(file, UriKind.Absolute);
+                img.EndInit();
+
+                FileInfo fi = new FileInfo(file);
+
+                x.Add(t);
+            }
+        
+
+            listView.ItemsSource = x;
+
+        }
+
 
 
         public MainWindow()
@@ -62,6 +93,9 @@ namespace ToolsSelector
             x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
             backup = new List<Tool>(x);
             this.DataContext = this;
+            //ImageLoad();
+
+
         }
 
         private void RaisePropertyChanged(string propertyName)
@@ -73,33 +107,7 @@ namespace ToolsSelector
         }
 
 
-        //public void ImageLoad()
-        //{
 
-        //    BitmapImage src = new BitmapImage();
-        //    src.BeginInit();
-        //    src.UriSource = new Uri("picture.jpg", UriKind.Relative);
-        //    src.EndInit();
-
-        //    i.Stretch = Stretch.Uniform;
-        //    //int q = src.PixelHeight;        // Image loads here
-        //    sp.Children.Add(i);
-        //}
-
-        public static readonly List<string> ImageExtensions = new List<string>
-       {
-            ".jpg",
-            ".jpe",
-            ".bmp",
-            ".gif",
-            ".png"
-       };
-
-
-        public void ImageLoad()
-        {
-            Directory.GetFiles(@"Images\", ".jpg");
-        }
 
         public void Refresh()
         {
@@ -107,16 +115,21 @@ namespace ToolsSelector
             RaisePropertyChanged("x");
         }
 
-       
 
-        private void listBox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
-        {
 
-        }
+
+
+
+
 
         private void Refresh_Click(object sender, RoutedEventArgs e)
         {
             Refresh();
+        }
+
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+           
         }
     }
 }
