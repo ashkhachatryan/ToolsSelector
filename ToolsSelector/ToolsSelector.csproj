@@ -61,6 +61,7 @@
     </ApplicationDefinition>
     <Compile Include="Models\Tool.cs" />
     <Compile Include="ViewModels\Actions.cs" />
+    <Compile Include="Views\PathConverter.cs" />
     <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using ToolsSelector.Models;
 using static System.Net.Mime.MediaTypeNames;
+using System.Globalization;
 
 namespace ToolsSelector
 {
@@ -21,8 +23,6 @@ namespace ToolsSelector
     public partial class MainWindow : Window, INotifyPropertyChanged
 
     {
-       
-
         string jsonFile = File.ReadAllText(@"Resources\Json.json");
 
         public List<Tool> x { get; set; }
@@ -52,36 +52,37 @@ namespace ToolsSelector
             }
         }
 
-        public void ImageLoad()
-        {
+        //public void ImageLoad()
+        //{
 
-            string root = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-            string[] supportedExtensions = new[] { ".bmp", ".jpeg", ".jpg", ".png", ".tiff" };
-            var files = Directory.GetFiles(Path.Combine(root, "Images"), "*.*").Where(s => supportedExtensions.Contains(Path.GetExtension(s).ToLower()));
+        //    string root = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+        //    string[] supportedExtensions = new[] { ".bmp", ".jpeg", ".jpg", ".png", ".tiff" };
+        //    var files = Directory.GetFiles(Path.Combine(root, "Images"), "*.*").Where(s => supportedExtensions.Contains(Path.GetExtension(s).ToLower()));
 
-            foreach (var file in files)
-            {
-                Tool t = new Tool()
-                {
-                    Path = file,
-                    Name = Path.GetFileName(file),
-                };
+        //    foreach (var file in files)
+        //    {
+        //        Tool t = new Tool()
+        //        {
+        //            Path = file,
+        //            Icons = Path.GetFileName(file),
+        //        };
 
-                BitmapImage img = new BitmapImage();
-                img.BeginInit();
-                img.CacheOption = BitmapCacheOption.OnLoad;
-                img.UriSource = new Uri(file, UriKind.Absolute);
-                img.EndInit();
+        //        BitmapImage img = new BitmapImage();
+        //        img.BeginInit();
+        //        img.CacheOption = BitmapCacheOption.OnLoad;
+        //        img.UriSource = new Uri(file, UriKind.Absolute);
+        //        img.EndInit();
 
-                FileInfo fi = new FileInfo(file);
+        //        FileInfo fi = new FileInfo(file);
+        //        x.Add(t);
+        //    }
 
-                x.Add(t);
-            }
-        
 
-            listView.ItemsSource = x;
+        //    listView.ItemsSource = x;
 
-        }
+        //}
+
+
 
 
 
@@ -94,7 +95,7 @@ namespace ToolsSelector
             x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
             backup = new List<Tool>(x);
             this.DataContext = this;
-            ImageLoad();
+            //ImageLoad();
 
 
         }
@@ -117,12 +118,6 @@ namespace ToolsSelector
         }
 
 
-
-
-
-
-
-
         private void Refresh_Click(object sender, RoutedEventArgs e)
         {
             Refresh();
@@ -130,7 +125,24 @@ namespace ToolsSelector
 
         private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-           
+
+        }
+
+        //private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
+        //{
+
+        //    foreach (var item in x)
+        //    {
+        //        System.Diagnostics.Process.Start(item.WebPage);
+
+        //    }
+        //}
+
+       
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
         }
     }
 }

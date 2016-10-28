@@ -25,21 +25,6 @@ namespace ToolsSelector.ViewModels
             private set;
         }
 
-        //private Country _selectedCountry
-        //{
-        //    get
-        //    {
-        //        return _selectedCountry;
-        //    }
-        //    set
-        //    {
-        //        _selectedCountry = value;
-        //        /* WARNING: The following code causes the CollectionChanged 
-        //             event to get fired multiple times! */
-        //        this.Cities.Clear();
-        //        foreach (City city in _selectedCountry.Cities)
-        //            this.Cities.Add(city);
-        //    }
-        //}
+     
     }
 }

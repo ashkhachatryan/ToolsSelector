@@ -11,11 +11,11 @@ namespace ToolsSelector.Models
 {
     public class Tool
     {
-        [JsonProperty(PropertyName =  "name")]
-        public string Name { get; set; }
+        //[JsonProperty(PropertyName =  "name")]
+        //public string Name { get; set; }
 
-        [JsonProperty(PropertyName = "webPage")]
-        public string WebPage { get; set; }
+        //[JsonProperty(PropertyName = "webPage")]
+        //public string WebPage { get; set; }
 
         [JsonProperty(PropertyName = "description")]
         public string Description { get; set; }

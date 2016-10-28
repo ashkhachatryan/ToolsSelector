@@ -9,6 +9,7 @@
         Title="Tools Selector" Height="600         " Width="900">
     <Window.Resources>
         <Views:DistinctConverter x:Key="DistinctConverter"></Views:DistinctConverter>
+        <Views:PathConverter x:Key="PathConverter"></Views:PathConverter>
     </Window.Resources>
     <Grid ShowGridLines="True">
         <Grid.Background>
@@ -19,24 +20,18 @@
             <ColumnDefinition Width="200"/>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
-        <!--<ScrollBar Margin="200,20,30,0" Width="40" Height="1000" HorizontalContentAlignment="Right" Orientation="Vertical"></ScrollBar>-->
         <ScrollViewer VerticalScrollBarVisibility="Auto">
             <WrapPanel Orientation="Vertical"  >
-
                 <Label x:Name="categoryLabel" Content="Category" HorizontalAlignment="left" Margin="35,5,0,0" VerticalAlignment="Top" Width="60"/>
                 <ComboBox x:Name="categoryCombo" ItemsSource="{Binding x, ConverterParameter=Category, Converter={StaticResource DistinctConverter}, Mode=OneWay}"   DisplayMemberPath="Category" SelectedValuePath="Category" SelectedItem="{Binding SelectedTool}"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"  />
-
-
                 <Label x:Name="featuresLabel" Content="Services/Features" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,65,0,0" Width="110"/>
                 <ComboBox x:Name="featuresCombo"  ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=ServicesFeatures}" DisplayMemberPath="ServicesFeatures" SelectedValuePath="ServicesFeatures" SelectedItem="{Binding Tool}" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
-                <Label x:Name="typeLabel" Content="Type" HorizontalAlignment="Left" Margin="45,65,0,0" VerticalAlignment="Top" Width="80">
-                </Label>
+                <Label x:Name="typeLabel" Content="Type" HorizontalAlignment="Left" Margin="45,65,0,0" VerticalAlignment="Top" Width="80"/>
                 <ComboBox x:Name="typeCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Type}" DisplayMemberPath="Type" SelectedValuePath="Type" SelectedItem="{Binding Tool}"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
                 <Label x:Name="trialPeriodLabel" Content="Trial Period" HorizontalAlignment="Left" Margin="33,65,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.472,1.594"/>
                 <ComboBox x:Name="trialPeriodCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=TrialPeriod}" DisplayMemberPath="TrialPeriod" SelectedValuePath="TrialPeriod" SelectedItem="{Binding SelectedTool}" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
                 <Label x:Name="priceLabel" Content="Price" HorizontalAlignment="Left" Margin="45,65,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,0.016" Width="60"/>
                 <ComboBox x:Name="priceCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Price}" SelectedItem="{Binding SelectedTool}" DisplayMemberPath="Price" SelectedValuePath="Price"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.295,0.455"/>
-
             </WrapPanel>
         </ScrollViewer>
         <!--<Label x:Name="nameLabel" Content="Name" HorizontalAlignment="Left" Margin="500,100,50,50" VerticalAlignment="Top" RenderTransformOrigin="-0.125,-0.187" Width="60"/>
@@ -47,10 +42,8 @@
 
         <Label x:Name="descriptionLabel" Content="Description " HorizontalAlignment="Left" Margin="395,228,0,0" VerticalAlignment="Top" Width="75" Height="25" RenderTransformOrigin="0.531,-0.92"/>
         <ComboBox x:Name="descriptionCombo" ItemsSource="{Binding x}" DisplayMemberPath="Description" SelectedValuePath="Description" SelectedItem="{Binding Category}" HorizontalAlignment="Left" Margin="380,253,0,0" VerticalAlignment="Top" Width="120"/>-->
-        <WrapPanel Orientation="Horizontal" Margin="235,0,-0.4,0.4">
             <Button x:Name="refreshButton" Content="Refresh" Grid.Column="1" HorizontalAlignment="Left" Margin="250.2,495,-664.4,0" VerticalAlignment="Top" Width="105" Height="44" Click="Refresh_Click"/>
 
-        </WrapPanel>
         <!--<Image x:Name="marketo" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="20,20,-123.6,0" VerticalAlignment="Top" Width="100" Source="/ToolsSelector;component/Images/Marketo.png">
             <Image.OpacityMask>
                 <ImageBrush ImageSource="/ToolsSelector;component/Images/Marketo.png"/>
@@ -141,7 +134,7 @@
 
 
 
-        <ListView x:Name="listView" ItemsSource="{Binding x}"   Margin="11.2,10,-191.4,0"  Background="White" VerticalAlignment="Top"
+        <ListView x:Name="listView" ItemsSource="{Binding x,Converter={StaticResource PathConverter}}"  Margin="11.2,10,-191.4,0"  Background="White" VerticalAlignment="Top"
           ScrollViewer.HorizontalScrollBarVisibility="Disabled" Grid.Column="1"        >
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate >
@@ -163,8 +156,15 @@
                 <DataTemplate>
                     <Border BorderBrush="#FFE2DDDD" BorderThickness="1" Width="Auto" HorizontalAlignment="Stretch" Padding="5">
                         <StackPanel Cursor="Hand" Width="100" >
-                            <Image Width="80" MouseLeftButtonDown="Image_MouseLeftButtonDown" Height="80"/>
-                            <TextBlock Text="{Binding Name}" HorizontalAlignment="Center"></TextBlock>
+                            <Image Width="80"  MouseLeftButtonDown="Image_MouseLeftButtonDown" Height="80"/>
+
+                            <TextBlock HorizontalAlignment="Center">
+                              <!--<Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="{Binding WebPage}">
+                                  <TextBlock  Text="{Binding Name}" >
+                                      
+                                  </TextBlock>
+                              </Hyperlink>-->
+                            </TextBlock>
                         </StackPanel>
                     </Border>
                 </DataTemplate>
