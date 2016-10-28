@@ -61,6 +61,7 @@
     </ApplicationDefinition>
     <Compile Include="Models\Tool.cs" />
     <Compile Include="ViewModels\Actions.cs" />
+    <Compile Include="Views\HyperLink.cs" />
     <Compile Include="Views\PathConverter.cs" />
     <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -108,250 +109,250 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\Agency Analytics.jpg">
+    <Content Include="Resources\Images\Agency Analytics.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Ahrefs.jpg">
+    <Content Include="Resources\Images\Ahrefs.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Alteryx.png">
+    <Content Include="Resources\Images\Alteryx.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Analytics SEO.png">
+    <Content Include="Resources\Images\Analytics SEO.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Angular js.png">
+    <Content Include="Resources\Images\Angular js.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Atlassian Confluence.png">
+    <Content Include="Resources\Images\Atlassian Confluence.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Autodesk Maya.jpg">
+    <Content Include="Resources\Images\Autodesk Maya.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Bime.png">
+    <Content Include="Resources\Images\Bime.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Birst.jpg">
+    <Content Include="Resources\Images\Birst.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Bolste.png">
+    <Content Include="Resources\Images\Bolste.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Bootstrap.png">
+    <Content Include="Resources\Images\Bootstrap.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Bynder.jpg">
+    <Content Include="Resources\Images\Bynder.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Campaign Monitor.png">
+    <Content Include="Resources\Images\Campaign Monitor.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Carrara 8.5.png">
+    <Content Include="Resources\Images\Carrara 8.5.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Cinema 4D Prime R17.png">
+    <Content Include="Resources\Images\Cinema 4D Prime R17.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Colibri.png">
+    <Content Include="Resources\Images\Colibri.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\CommuniGator.jpg">
+    <Content Include="Resources\Images\CommuniGator.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Community Cloud.jpg">
+    <Content Include="Resources\Images\Community Cloud.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Darcy Ripper.png">
+    <Content Include="Resources\Images\Darcy Ripper.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\DotPeek.png">
+    <Content Include="Resources\Images\DotPeek.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Ds Max.png">
+    <Content Include="Resources\Images\Ds Max.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\EIAS 3D.jpg">
+    <Content Include="Resources\Images\EIAS 3D.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Freshservice ServiceDesk.png">
+    <Content Include="Resources\Images\Freshservice ServiceDesk.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Genoo.png">
+    <Content Include="Resources\Images\Genoo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Github.png">
+    <Content Include="Resources\Images\Github.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Gliffy.png">
+    <Content Include="Resources\Images\Gliffy.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Google Analytics.png">
+    <Content Include="Resources\Images\Google Analytics.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\GreenRope.jpg">
+    <Content Include="Resources\Images\GreenRope.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Harmony.png">
+    <Content Include="Resources\Images\Harmony.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Houdini FX.jpg">
+    <Content Include="Resources\Images\Houdini FX.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Hubspot.png">
+    <Content Include="Resources\Images\Hubspot.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\iClone 6.png">
+    <Content Include="Resources\Images\iClone 6.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Import.png">
+    <Content Include="Resources\Images\Import.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\IntelliJ IDEA.png">
+    <Content Include="Resources\Images\IntelliJ IDEA.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Jquery.png">
+    <Content Include="Resources\Images\Jquery.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\KeyShot Pro Floating.png">
+    <Content Include="Resources\Images\KeyShot Pro Floating.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\kimono Labs.png">
+    <Content Include="Resources\Images\kimono Labs.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\LeadSquared.png">
+    <Content Include="Resources\Images\LeadSquared.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\LeanKit.jpg">
+    <Content Include="Resources\Images\LeanKit.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Leftronic.png">
+    <Content Include="Resources\Images\Leftronic.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\LightWave.jpg">
+    <Content Include="Resources\Images\LightWave.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Looker.png">
+    <Content Include="Resources\Images\Looker.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Majestic.png">
+    <Content Include="Resources\Images\Majestic.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\MariaDB.jpg">
+    <Content Include="Resources\Images\MariaDB.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Marketo.png">
+    <Content Include="Resources\Images\Marketo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Microsoft SQL Server.jpg">
+    <Content Include="Resources\Images\Microsoft SQL Server.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Modo.jpg">
+    <Content Include="Resources\Images\Modo.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Moz.png">
+    <Content Include="Resources\Images\Moz.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\MyHub Intranet.png">
+    <Content Include="Resources\Images\MyHub Intranet.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\MySQL.png">
+    <Content Include="Resources\Images\MySQL.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Node js.jpg">
+    <Content Include="Resources\Images\Node js.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Octoparse.jpg">
+    <Content Include="Resources\Images\Octoparse.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Ontraport.jpg">
+    <Content Include="Resources\Images\Ontraport.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\OracleDB.jpg">
+    <Content Include="Resources\Images\OracleDB.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Pardot.png">
+    <Content Include="Resources\Images\Pardot.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\PhpStorm.png">
+    <Content Include="Resources\Images\PhpStorm.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Positionly.png">
+    <Content Include="Resources\Images\Positionly.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Raven.png">
+    <Content Include="Resources\Images\Raven.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\React js.png">
+    <Content Include="Resources\Images\React js.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\RealFlow.png">
+    <Content Include="Resources\Images\RealFlow.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Resharper.png">
+    <Content Include="Resources\Images\Resharper.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\RJMetrics.jpg">
+    <Content Include="Resources\Images\RJMetrics.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\SAP BusinessObjects.png">
+    <Content Include="Resources\Images\SAP BusinessObjects.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Sass.png">
+    <Content Include="Resources\Images\Sass.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Scraper%28Chrome Extension%29.jpg">
+    <Content Include="Resources\Images\Scraper%28Chrome Extension%29.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\SemRush.png">
+    <Content Include="Resources\Images\SemRush.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\SEO PowerSuite.png">
+    <Content Include="Resources\Images\SEO PowerSuite.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Sisense.png">
+    <Content Include="Resources\Images\Sisense.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Skype.png">
+    <Content Include="Resources\Images\Skype.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Slack.png">
+    <Content Include="Resources\Images\Slack.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Sublime.png">
+    <Content Include="Resources\Images\Sublime.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\TeamViewer.png">
+    <Content Include="Resources\Images\TeamViewer.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\TIBCO Spotfire.png">
+    <Content Include="Resources\Images\TIBCO Spotfire.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\TVPaint.png">
+    <Content Include="Resources\Images\TVPaint.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Visual Studio.png">
+    <Content Include="Resources\Images\Visual Studio.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Visual Web Ripper.png">
+    <Content Include="Resources\Images\Visual Web Ripper.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Vue xStream.jpg">
+    <Content Include="Resources\Images\Vue xStream.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\WebStorm.png">
+    <Content Include="Resources\Images\WebStorm.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\WebSundew.png">
+    <Content Include="Resources\Images\WebSundew.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\WooRank.png">
+    <Content Include="Resources\Images\WooRank.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Yammer.png">
+    <Content Include="Resources\Images\Yammer.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Zoho.png">
+    <Content Include="Resources\Images\Zoho.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

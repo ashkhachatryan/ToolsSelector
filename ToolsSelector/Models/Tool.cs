@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,11 +12,12 @@ namespace ToolsSelector.Models
 {
     public class Tool
     {
-        //[JsonProperty(PropertyName =  "name")]
-        //public string Name { get; set; }
 
-        //[JsonProperty(PropertyName = "webPage")]
-        //public string WebPage { get; set; }
+        [JsonProperty(PropertyName = "name")]
+        public string Name { get; set; }
+
+        [JsonProperty(PropertyName = "webPage")]
+        public string WebPage { get; set; }
 
         [JsonProperty(PropertyName = "description")]
         public string Description { get; set; }
@@ -35,16 +37,8 @@ namespace ToolsSelector.Models
         [JsonProperty(PropertyName = "price")]
         public string Price { get; set; }
 
-        [JsonProperty(PropertyName ="icons")]
+        [JsonProperty(PropertyName = "icons")]
         public string Icons { get; set; }
 
-        public string Path { get; set; } 
-
-        public BitmapImage Image { get; set; }
-       //public  static  void ImageSource(string psAssemblyName, string psResourceName)
-       // {
-       //     Uri oUri = new Uri("pack://application:,,,/" + psAssemblyName + ";component/" + psResourceName, UriKind.RelativeOrAbsolute);
-       //      BitmapFrame.Create(oUri);
-       // }
     }
 }

@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using ToolsSelector.Models;
 using static System.Net.Mime.MediaTypeNames;
 using System.Globalization;
+using System.Diagnostics;
 
 namespace ToolsSelector
 {
@@ -52,51 +53,15 @@ namespace ToolsSelector
             }
         }
 
-        //public void ImageLoad()
-        //{
-
-        //    string root = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-        //    string[] supportedExtensions = new[] { ".bmp", ".jpeg", ".jpg", ".png", ".tiff" };
-        //    var files = Directory.GetFiles(Path.Combine(root, "Images"), "*.*").Where(s => supportedExtensions.Contains(Path.GetExtension(s).ToLower()));
-
-        //    foreach (var file in files)
-        //    {
-        //        Tool t = new Tool()
-        //        {
-        //            Path = file,
-        //            Icons = Path.GetFileName(file),
-        //        };
-
-        //        BitmapImage img = new BitmapImage();
-        //        img.BeginInit();
-        //        img.CacheOption = BitmapCacheOption.OnLoad;
-        //        img.UriSource = new Uri(file, UriKind.Absolute);
-        //        img.EndInit();
-
-        //        FileInfo fi = new FileInfo(file);
-        //        x.Add(t);
-        //    }
-
-
-        //    listView.ItemsSource = x;
-
-        //}
-
-
-
-
 
         public MainWindow()
         {
-
 
             InitializeComponent();
 
             x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
             backup = new List<Tool>(x);
             this.DataContext = this;
-            //ImageLoad();
-
 
         }
 
@@ -128,21 +93,24 @@ namespace ToolsSelector
 
         }
 
-        //private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
-        //{
-
-        //    foreach (var item in x)
-        //    {
-        //        System.Diagnostics.Process.Start(item.WebPage);
-
-        //    }
-        //}
 
        
 
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+      
+
+        private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Uri uri = new Uri(@"http://"+e.Uri.ToString());
+                Process.Start(new ProcessStartInfo(uri.AbsoluteUri));
+                e.Handled = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
     }
 }
