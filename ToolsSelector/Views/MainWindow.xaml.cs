@@ -41,15 +41,24 @@ namespace ToolsSelector
             }
             set
             {
-                if (_selectedTool != value)
+                try
                 {
-                    _selectedTool = value;
-                    var t = x.Where(x => x.Category == SelectedTool.Category).ToList();
-                    x = new List<Tool>(t);
+                    if (_selectedTool != value)
+                    {
+                        _selectedTool = value;
+                        var t = x.Where(x => x.Category == SelectedTool.Category).ToList();
+                        x = new List<Tool>(t);
 
-                    RaisePropertyChanged("x");
-                    refreshButton.Click += Refresh_Click;
+                        RaisePropertyChanged("x");
+                        refreshButton.Click += Refresh_Click;
+                    }
                 }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message);
+                }
+              
             }
         }
 
@@ -86,11 +95,12 @@ namespace ToolsSelector
         private void Refresh_Click(object sender, RoutedEventArgs e)
         {
             Refresh();
+            
         }
 
         private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-
+          
         }
 
 
@@ -112,5 +122,8 @@ namespace ToolsSelector
             }
 
         }
+
+
+        
     }
 }

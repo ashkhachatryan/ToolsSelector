@@ -10,73 +10,72 @@
     <Window.Resources>
         <Views:DistinctConverter x:Key="DistinctConverter"></Views:DistinctConverter>
         <Views:PathConverter x:Key="PathConverter"></Views:PathConverter>
-        <Views:HyperLink x:Key="HyperLink"></Views:HyperLink>
+        <Views:LinkConverter x:Key="HyperLink"></Views:LinkConverter>
+        <Views:DescriptionConverter x:Key="DescriptionConverter"></Views:DescriptionConverter>
     </Window.Resources>
     <Grid ShowGridLines="True">
         <Grid.Background>
             <ImageBrush/>
         </Grid.Background>
-       
+
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"/>
-            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="180.8"/>
+            <ColumnDefinition Width="Auto" MinWidth="495.2"/>
         </Grid.ColumnDefinitions>
-        <ScrollViewer VerticalScrollBarVisibility="Auto">
-            <WrapPanel   >
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,0,9.6,0.4">
+            <StackPanel   >
                 <Label x:Name="categoryLabel" Content="Category" HorizontalAlignment="left" Margin="35,5,0,0" VerticalAlignment="Top" Width="60"/>
                 <ComboBox x:Name="categoryCombo" ItemsSource="{Binding x, ConverterParameter=Category, Converter={StaticResource DistinctConverter}, Mode=OneWay}"   DisplayMemberPath="Category" SelectedValuePath="Category" SelectedItem="{Binding SelectedTool}"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"  />
                 <Label x:Name="featuresLabel" Content="Services/Features" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,65,0,0" Width="110"/>
-                <ComboBox x:Name="featuresCombo"  ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=ServicesFeatures}" DisplayMemberPath="ServicesFeatures" SelectedValuePath="ServicesFeatures" SelectedItem="{Binding Tool}" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
+                <ComboBox x:Name="featuresCombo"  ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=ServicesFeatures}" DisplayMemberPath="ServicesFeatures" SelectedValuePath="ServicesFeatures" SelectedItem="{Binding SelectedTool}" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
                 <Label x:Name="typeLabel" Content="Type" HorizontalAlignment="Left" Margin="45,65,0,0" VerticalAlignment="Top" Width="80"/>
-                <ComboBox x:Name="typeCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Type}" DisplayMemberPath="Type" SelectedValuePath="Type" SelectedItem="{Binding Tool}"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
+                <ComboBox x:Name="typeCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Type}" DisplayMemberPath="Type" SelectedValuePath="Type" SelectedItem="{Binding SelectedTool}"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
                 <Label x:Name="trialPeriodLabel" Content="Trial Period" HorizontalAlignment="Left" Margin="33,65,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.472,1.594"/>
                 <ComboBox x:Name="trialPeriodCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=TrialPeriod}" DisplayMemberPath="TrialPeriod" SelectedValuePath="TrialPeriod" SelectedItem="{Binding SelectedTool}" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
                 <Label x:Name="priceLabel" Content="Price" HorizontalAlignment="Left" Margin="45,65,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,0.016" Width="60"/>
                 <ComboBox x:Name="priceCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Price}" SelectedItem="{Binding SelectedTool}" DisplayMemberPath="Price" SelectedValuePath="Price"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.295,0.455"/>
-            </WrapPanel>
+            </StackPanel>
         </ScrollViewer>
- 
-            <Button x:Name="refreshButton" Content="Refresh" Grid.Column="1" HorizontalAlignment="Left" Margin="250.2,495,-664.4,0" VerticalAlignment="Top" Width="105" Height="44" Click="Refresh_Click"/>
 
-        <ListView x:Name="listView" ItemsSource="{Binding x}"  Margin="11.2,10,-191.4,0"  Background="White" VerticalAlignment="Top"
-          ScrollViewer.HorizontalScrollBarVisibility="Disabled" Grid.Column="1"        >
+        <Button x:Name="refreshButton" Content="Refresh" Grid.Column="1" HorizontalAlignment="Left" Margin="293.4,500,0,0" VerticalAlignment="Top" Width="105" Height="44" Click="Refresh_Click"/>
+
+        <ListView x:Name="listView" ItemsSource="{Binding x}" SelectedItem="{Binding SelectedTool}" Margin="18.4,0,-182,0"  Background="White" VerticalAlignment="Top"
+           Grid.Column="1" Height="375"        >
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate >
-                    <WrapPanel />
-                    <!--Width="{Binding (FrameworkElement.ActualWidth),
-                        RelativeSource={RelativeSource  AncestorType=ScrollContentPresenter} }"
-                         ItemWidth="{Binding (ListView.View).ItemWidth,RelativeSource={RelativeSource AncestorType=ListView}}"
-                               MinWidth="{Binding ItemWidth, RelativeSource={RelativeSource Self}}"
-                               ItemHeight="{Binding (ListView.View).ItemHeight, 
-                                RelativeSource={RelativeSource AncestorType=ListView}}"-->
+                    <WrapPanel Orientation="Horizontal" Width="600"/>
                 </ItemsPanelTemplate>
-            </ListView.ItemsPanel>
-            <ListView.ItemContainerStyle>
+            </ListView.ItemsPanel >
+            <ListView.ItemContainerStyle >
                 <Style TargetType="ListViewItem">
                     <Setter Property="Padding" Value="0"></Setter>
                 </Style>
             </ListView.ItemContainerStyle>
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                  
-                    <Border BorderBrush="#FFE2DDDD" BorderThickness="1" Width="Auto" HorizontalAlignment="Stretch" Padding="5">
-                      
-                        <StackPanel Cursor="Hand"  >
+            <ListView.ItemTemplate >
+                <DataTemplate >
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <Border BorderBrush="#FFE2DDDD" BorderThickness="1" Width="Auto" HorizontalAlignment="Stretch"  Padding="5">
+
+                            <StackPanel x:Name="stackPanel" Cursor="Hand" >
 
 
-                            <Image  Width="80" Source="{Binding Icons ,Converter={StaticResource PathConverter}}" MouseLeftButtonDown="Image_MouseLeftButtonDown" Height="80"/>
-                            <TextBlock HorizontalAlignment="center" >
+                                <Image x:Name="image" Width="80" Height="80" Source="{Binding Icons ,Converter={StaticResource PathConverter}}"  MouseLeftButtonDown="Image_MouseLeftButtonDown" />
+                                <TextBlock HorizontalAlignment="center" >
                             <Hyperlink  RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="{Binding WebPage}">
-                                  <TextBlock  Text="{Binding Name}"   /> 
+                                  <TextBlock Width="70" Text="{Binding Name}"   /> 
                               </Hyperlink>
                                 
                             </TextBlock>
-                        </StackPanel>
-                         
-                    </Border>
-                   
+
+
+                            </StackPanel>
+
+                        </Border>
+                    </ScrollViewer>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <TextBox x:Name="descriptionTextBox"  Grid.Column="1" HorizontalAlignment="Left" Height="90" Margin="18.4,390,-182.8,0" TextWrapping="Wrap" Text="{Binding x.Description,Converter={StaticResource DescriptionConverter},ConverterParameter=Description}"   VerticalAlignment="Top" Width="662"/>
+
     </Grid>
 </Window>
