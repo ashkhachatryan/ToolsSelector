@@ -15,6 +15,7 @@ using ToolsSelector.Models;
 using static System.Net.Mime.MediaTypeNames;
 using System.Globalization;
 using System.Diagnostics;
+using System.Windows.Controls;
 
 namespace ToolsSelector
 {
@@ -58,7 +59,6 @@ namespace ToolsSelector
 
                     MessageBox.Show(ex.Message);
                 }
-              
             }
         }
 
@@ -83,11 +83,10 @@ namespace ToolsSelector
         }
 
 
-
-
         public void Refresh()
         {
             x = backup;
+            descriptionTextBox.Clear();
             RaisePropertyChanged("x");
         }
 
@@ -95,24 +94,29 @@ namespace ToolsSelector
         private void Refresh_Click(object sender, RoutedEventArgs e)
         {
             Refresh();
-            
+
         }
 
         private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-          
+            try
+            {
+                string name = (sender as System.Windows.Controls.Image).Tag.ToString();
+                string current = x.Where(x => x.Name == name).ToList()[0].Description;
+                descriptionTextBox.Text = current;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
-
-       
-
-      
 
         private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
         {
             try
             {
-                Uri uri = new Uri(@"http://"+e.Uri.ToString());
+                Uri uri = new Uri(@"http://" + e.Uri.ToString());
                 Process.Start(new ProcessStartInfo(uri.AbsoluteUri));
                 e.Handled = true;
             }
@@ -120,10 +124,6 @@ namespace ToolsSelector
             {
                 MessageBox.Show(ex.Message);
             }
-
         }
-
-
-        
     }
 }

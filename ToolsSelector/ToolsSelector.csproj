@@ -61,7 +61,6 @@
     </ApplicationDefinition>
     <Compile Include="Models\Tool.cs" />
     <Compile Include="ViewModels\Actions.cs" />
-    <Compile Include="Views\Helper\DescriptionConverter.cs" />
     <Compile Include="Views\Helper\LinkConverter.cs" />
     <Compile Include="Views\Helper\PathConverter.cs" />
     <Page Include="Views\MainWindow.xaml">

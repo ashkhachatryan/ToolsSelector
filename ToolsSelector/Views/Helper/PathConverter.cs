@@ -12,9 +12,6 @@ namespace ToolsSelector.Views
 {
     class PathConverter : IValueConverter
     {
-
-    
-
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             StringBuilder build = new  StringBuilder();
@@ -32,9 +29,5 @@ namespace ToolsSelector.Views
         {
             throw new NotImplementedException();
         }
-
-      
-
-
     }
 }
