@@ -67,10 +67,18 @@ namespace ToolsSelector
         {
 
             InitializeComponent();
+            try
+            {
+                x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
+                backup = new List<Tool>(x);
+                this.DataContext = this;
+            }
+            catch (Exception ex)
+            {
 
-            x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
-            backup = new List<Tool>(x);
-            this.DataContext = this;
+                MessageBox.Show(ex.Message);
+            }
+         
 
         }
 

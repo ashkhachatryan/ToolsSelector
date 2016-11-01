@@ -26,7 +26,7 @@ namespace ToolsSelector.Models
         public string ServicesFeatures { get; set; }
 
         [JsonProperty(PropertyName = "type")]
-        public string Type { get; set; }
+        public string[] Type { get; set; }
 
         [JsonProperty(PropertyName = "category")]
         public string Category { get; set; }

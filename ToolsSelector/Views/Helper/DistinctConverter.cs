@@ -11,7 +11,7 @@ using ToolsSelector.Models;
 
 namespace ToolsSelector.Views
 {
-    class DistinctConverter : IValueConverter
+    class DistinctConverter : Tool ,IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
@@ -25,7 +25,20 @@ namespace ToolsSelector.Views
             }
             else if (parameter.ToString() == "Type")
             {
-                distinct = list.GroupBy(x => x.Type).Select(g => g.First()).ToList();
+                try
+                {
+                    foreach (var item in list)
+                    {
+                        
+                        distinct = (List<Tool>)item.Type.Select(g => g.First());
+                    }
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message);
+                }
+                
             }
             else if (parameter.ToString() == "ServicesFeatures")
             {
