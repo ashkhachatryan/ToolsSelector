@@ -29,8 +29,7 @@ namespace ToolsSelector.Views
                 {
                     foreach (var item in list)
                     {
-                        
-                        distinct = (List<Tool>)item.Type.Select(g => g.First());
+                        //distinct = (List<Tool>)item.Type.Select(g => g.First())/*;*/
                     }
                 }
                 catch (Exception ex)

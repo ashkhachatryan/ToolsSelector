@@ -10,9 +10,8 @@ using System.Windows.Media.Imaging;
 
 namespace ToolsSelector.Models
 {
-    public class Tool
+    public class Tool :Trial
     {
-
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
 
@@ -32,13 +31,12 @@ namespace ToolsSelector.Models
         public string Category { get; set; }
 
         [JsonProperty(PropertyName = "trialPeriod")]
-        public string TrialPeriod { get; set; }
+        public Trial TrialPeriod { get; set; }
 
         [JsonProperty(PropertyName = "price")]
         public string Price { get; set; }
 
         [JsonProperty(PropertyName = "icons")]
         public string Icons { get; set; }
-
     }
 }

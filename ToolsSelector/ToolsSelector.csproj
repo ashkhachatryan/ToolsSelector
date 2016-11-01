@@ -60,6 +60,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Models\Tool.cs" />
+    <Compile Include="Models\Trial.cs" />
     <Compile Include="ViewModels\Actions.cs" />
     <Compile Include="Views\Helper\LinkConverter.cs" />
     <Compile Include="Views\Helper\PathConverter.cs" />

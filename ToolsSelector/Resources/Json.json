@@ -6,7 +6,7 @@
     "servicesfeatures": "Email marketing and campaign management\nLead generation\nMeasure and optimize ROI\nSearch marketing\nLanding pages and forms\nWebsite visitor tracking\nWeb and mobile personalization \n",
     "type": ["Android","iPhone-iPad","iPhone","iPad","Mac","Windows","Windows Phone","Web-based","Mobile Web App"],
     "category": "Marketing",
-    "trialPeriod": "Available",
+    "trialPeriod": {  "availability" : "available", "credit-card" : "not required", "period" : "+"  },//
     "price": "Spark: $999/month – 30 campaigns, 1 domain\r\nStandard: $1,499/month – 60 campaigns, 1 domain\r\nEnterprise: $2,999/month – Unlimited campaigns, 4 domains\r\nConsumer: $1,499/month – 60 campaigns, 1 domain \n",
     "icons": "Marketo.png"
   },
@@ -17,7 +17,7 @@
     "servicesfeatures": "Email marketing with fully-branded templates\nLanding pages, form builders, and search connectors\nIntuitive WYSIWYG interface for landing page design\nConnect all your search campaigns in a single platform\nLead scoring, grading, and nurturing tools\nSegmentation wizard\nROI reporting\nReal-time sales alerts and CRM integration\nRobust, multi-channel social marketing \n",
     "type": ["Android","iPhone-iPad","iPhone","Web-based","Mobile Web App"],
     "category": "Marketing",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "30" },
     "price": "Standard: $1,000/month\r\nPro: $2,000/month – Advanced analytics, dynamic content, A/B testing\r\nUltimate: $3,000/month – Custom user roles, API access \n",
     "icons": "Pardot.png"
   },
@@ -28,7 +28,7 @@
     "servicesfeatures": "Monitor leads, landing pages, and performance in one\r\nContent management system to streamline content creation\r\nUse real-time data to provide relevant, contextual marketing experiences\r\nBuild automated workflows around your goals\r\nConvert, track, and categorize leads \n",
     "type": ["Web-based"],
     "category": "Marketing",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "30" },
     "price": "Basic $200/month - For those new to inbount marketing\r\nProfessional $800/month  - For professional marketers            \r\nEnterprise $2400/month  - For marketing teams \n",
     "icons": "Hubspot.png"
   },
@@ -39,7 +39,7 @@
     "servicesfeatures": "Centralized lead database with unlimited leads\r\nIntuitive landing page design\r\nFull-featured Content Management System (CMS)\r\nLead capture forms and progressive profiling\r\nLead segmentation upon capture\r\nComprehensive lead activity tracking\r\nSEO competitive analysis\r\nOn-page SEO, third-party integrations, and more \n",
     "type": ["Web-based"],
     "category": "SEO",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "30" },
     "price": "Standard: $199/month – 3 users, 5 lead capture forms\r\nPremium: $599/month – 10 users, unlimited lead capture forms\r\nElite: $1,499/month – 50 users, unlimited lead capture forms \n",
     "icons": "Genoo.png"
   },
@@ -50,7 +50,7 @@
     "servicesfeatures": "360-degree view of business contacts\r\nCustomizable web forms\r\nAutomated task management with alerts\r\nFlexible lead scoring to automatically identify your hottest leads \n",
     "type": ["Android","iPhone-iPad","iPhone","Web-based"],
     "category": "Marketing",
-    "trialPeriod": "7 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "7" }, //
     "price": "Pro: $297/month – 2 users, 25,000 contacts\r\nTeam: $597/month – 10 users, 100,000 contacts \n",
     "icons": "Ontraport.jpg"
 
@@ -62,7 +62,7 @@
     "servicesfeatures": "Create compelling landing pages\r\nIntegrates with a variety of apps and tools\r\nAutomated lead scoring\r\nAutoresponders for lead nurturing\r\nLead intelligence analytics\r\nList segmentation based on lead scores, behavior, geography, and other variables\r\nPowerful reporting \n",
     "type": ["Android","iPhone-iPad","iPhone","iPad","Mac","Windows","Windows Phone","Mobile Web App"],
     "category": "Marketing",
-    "trialPeriod": "15 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "15" },
     "price": "Basic: $125/month – 5 users, 2,000 contacts\r\nStandard: $250/month – 10 users, 10,000 contacts\r\nEnterprise: $500/month – 20 users, 25,000 contacts \n",
     "icons": "LeadSquared.png"
   },
@@ -73,7 +73,7 @@
     "servicesfeatures": "Drip marketing\r\nLead nurturing and scoring\r\nPage scoring\r\nRemarketing\r\nAutomated follow-up actions based on triggers\r\nFull triggered campaigns\r\nEmail marketing\r\nEnd-to-end reporting \n",
     "type": ["Desktop","Web-based"],
     "category": "Marketing",
-    "trialPeriod": "14 days",
+    "trialPeriod": { "availability": "available","credit-card": "+","period": "14" }, //
     "price": "Contact for a quote \n",
     "icons": "CommuniGator.jpg"
   },
@@ -84,7 +84,7 @@
     "servicesfeatures": "Track each interaction at every customer touchpoint\r\nTrigger automation, lead scoring, analysis, prediction, and engagement\r\nEmail marketing\r\nEvent management and calendar booking\r\nProject management\r\nSMS marketing\r\nSurveys\r\nSocial collaboration\r\nPredictive analytics\r\nVideo tracking \n",
     "type": ["Android","iPhone-iPad","iPhone","iPad","Mac","Linux","Windows","Web-based"],
     "category": "Marketing",
-    "trialPeriod": "14 days with every plan!",
+    "trialPeriod":  { "availability": "available","credit-card": "not required","period": "14"},
     "price": "Starter: $129/month – 1,000 contacts\r\nPro: $149/month – 3,000 contacts\r\nPremium: $169/month – 5,000 contacts\r\nPowerhouse: $199/month – 7,500 contacts\r\nMagnificent: $249/month – 10,000 contacts\r\nSupreme: $399/month – 25,000 contacts\r\nUltimate: $449/month – 50,000 contacts \n",
     "icons": "GreenRope.jpg"
   },
@@ -95,7 +95,7 @@
     "servicesfeatures": "Organize your thoughts or workflows in intuitive diagrams\r\nIntuitive interface to create professional diagrams quickly\r\nCollaborate with anyone who has access to a web browser\r\nCreate organizational charts, SWOT analyses, site maps, wireframes, and more \n",
     "type": ["Mac","Windows","Web-based"],
     "category": "Marketing",
-    "trialPeriod": "14 days",
+    "trialPeriod":  { "availability": "available","credit-card": "required","period": "14"},
     "price": "Free - $0 / / user a month\r\nStandard\t- $3.99 / user a month\r\nPro - $7.99 / user a month \n",
     "icons": "Gliffy.png"
   },
@@ -106,7 +106,7 @@
     "servicesfeatures": "Auto-Completion in Sublime Text\r\nQuickly Insert Text & Code with Sublime Text Snippets\r\nJump the Cursor to Where You Want To Go\r\nSelect Multiple Lines, Words, & Columns \n",
     "type": ["Mac","Windows","Linux"],
     "category": "Development",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "not available","credit-card": "not required","period": "-"}, //Free
     "price": "Free \n",
     "icons": "Sublime.png"
   },
@@ -117,7 +117,7 @@
     "servicesfeatures": "HTML/DOM manipulation.\r\nCSS manipulation.\r\nHTML event methods.\r\nEffects and animations.\r\nAJAX.\r\nUtilities. \n",
     "type": ["-"],
     "category": "Development",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "not available","credit-card": "not required","period": "-"}, //Free
     "price": "Free \n",
     "icons": "Jquery.png"
   },
@@ -128,7 +128,7 @@
     "servicesfeatures": "Collaboration - Manage large teams with ease\r\nIntegrated issue and bug tracking\r\nGraphical representation of branches\r\nApproximately 6 million hosted git repositories\r\n99.69% git uptime past year\r\nThe most popular code host on the planet \n",
     "type": ["iPhone-iPad","Mac","Windows","Web-based","Mobile Web App"],
     "category": "Development",
-    "trialPeriod": "45 days ",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "45"}, //
     "price": "Free - For public and open source projects.\nPersonal -$7/per user month \nOrganization - $9 /per user month\nEnterprise - $21/per user month \n",
     "icons": "Github.png"
   },
@@ -139,7 +139,7 @@
     "servicesfeatures": "Speed of Development\r\nResponsiveness\r\nConsistency\r\nCustomizable\r\nSupport \n",
     "type": ["-"],
     "category": "Development",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "not available","credit-card": "not required","period": "-"}, //Free
     "price": "- \n",
     "icons": "Bootstrap.png"
   },
@@ -150,7 +150,7 @@
     "servicesfeatures": "Preprocessing\r\nVariables\r\nNesting\r\nPartials\r\nImport\r\nMixins\r\nInheritance\r\nOperators \n",
     "type": ["Web-based"],
     "category": "Development",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "not available","credit-card": "not required","period": "-"}, //Free
     "price": "Free \n",
     "icons": "Sass.png"
   },
@@ -161,8 +161,8 @@
     "servicesfeatures": "Code quality analysis\nCode editing helpers\nCode generation\nEliminate errors and code smells\nSafely change your code base\nCompliance to coding standards\nInstantly traverse your entire solution\nMore features \n",
     "type": ["Windows"],
     "category": "Development",
-    "trialPeriod": "30 days",
-    "price": "BUSINESS AND ORGANIZATIONS\nReSharper\nUS $ 299.00 /1st year\nUS $ 239.00 /2nd year\nUS $ 179.00 /3rd year on wards\nUS $ 29.90 /month\n\nReSharper Ultimate\nUS $ 399.00 /1st year\nUS $ 319.00 /2nd year\nUS $ 239.00 /3rd yr onwards\nUS $ 39.90 /month\n                               INDIVIDUAL CUSTOMERS\n\nReSharper\nUS $ 129.00 /1st year\nUS $ 103.00 /2nd year\nUS $ 77.00 /3rd yr onwards\nUS $ 12.90 /month\n\nReSharper Ultimate\nUS $ 399.00 /1st year\nUS $ 319.00 /2nd year\nUS $ 239.00 /3rd yr onwards\nUS $ 14.90 /month \n",
+    "trialPeriod":  { "availability": "available","credit-card": " not required","period": "30"},
+    "price": "BUSINESS AND ORGANIZATIONS\nReSharper\nUS $?299.00 /1st year\nUS $?239.00 /2nd year\nUS $?179.00 /3rd year on wards\nUS $?29.90 /month\n\nReSharper Ultimate\nUS $?399.00 /1st year\nUS $?319.00 /2nd year\nUS $?239.00 /3rd yr onwards\nUS $?39.90 /month\n                               INDIVIDUAL CUSTOMERS\n\nReSharper\nUS $?129.00 /1st year\nUS $?103.00 /2nd year\nUS $?77.00 /3rd yr onwards\nUS $?12.90 /month\n\nReSharper Ultimate\nUS $?399.00 /1st year\nUS $?319.00 /2nd year\nUS $?239.00 /3rd yr onwards\nUS $?14.90 /month \n",
     "icons": "Resharper.png"
   },
   {
@@ -172,8 +172,8 @@
     "servicesfeatures": "Smart PHP Code Editor\nCode Quality Analysis\nEasy Code Navigation & Search\nDebugging\nTesting\nProfiling\nHTML and CSS Editor\nJavaScript Editor\nNew Technologies\nVCS\nDatabases & SQL\nOther Features \n",
     "type": ["Windows"],
     "category": "Development",
-    "trialPeriod": "30 days",
-    "price": "BUSINESS AND ORGANIZATIONS\r\nUS $ 199.00 /1st year\r\nUS $ 159.00 /2nd year\r\nUS $ 119.00 /3rd yr onwards\r\nUS $ 19.90 /month\r\n\r\n                       INDIVIDUAL CUSTOMERS\r\nUS $ 89.00 /1st year\r\nUS $ 71.00 /2nd year\r\nUS $ 53.00 /3rd yr onwards\r\nUS $ 8.90 /month \n",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "30"},
+    "price": "BUSINESS AND ORGANIZATIONS\r\nUS $?199.00 /1st year\r\nUS $?159.00 /2nd year\r\nUS $?119.00 /3rd yr onwards\r\nUS $?19.90 /month\r\n\r\n                       INDIVIDUAL CUSTOMERS\r\nUS $?89.00 /1st year\r\nUS $?71.00 /2nd year\r\nUS $?53.00 /3rd yr onwards\r\nUS $?8.90 /month \n",
     "icons": "PhpStorm.png"
   },
   {
@@ -183,8 +183,8 @@
     "servicesfeatures": "Modern frameworks\nSmart editor\nNavigation & Search\nDebugging\nUnit testing\nTracing and profiling\nBuild tools\nCode quality tools\nProject templates\nVCS\nLocal history\nCustomization\nOther more \n",
     "type": ["Windows"],
     "category": "Development",
-    "trialPeriod": "30 days",
-    "price": "BUSINESS AND ORGANIZATIONS\n\nUS $ 129.00 /1st year\nUS $ 103.00 /2nd year\nUS $ 77.00 /3rd yr onwards\nUS $ 12.90 /month\n\n                          INDIVIDUAL CUSTOMERS\n\nUS $ 59.00 /1st year\nUS $ 47.00 /2nd year\nUS $ 35.00 /3rd yr onwards\nUS $ 5.90 /month \n",
+    "trialPeriod":  { "availability": "available","credit-card": "not required","period": "30"},
+    "price": "BUSINESS AND ORGANIZATIONS\n\nUS $?129.00 /1st year\nUS $?103.00 /2nd year\nUS $?77.00 /3rd yr onwards\nUS $?12.90 /month\n\n                          INDIVIDUAL CUSTOMERS\n\nUS $?59.00 /1st year\nUS $?47.00 /2nd year\nUS $?35.00 /3rd yr onwards\nUS $?5.90 /month \n",
     "icons": "WebStorm.png"
   },
   {
@@ -194,7 +194,7 @@
     "servicesfeatures": "Libraries, executables and more\nView source code if available\nShow or hide compiler-generated code\nExplore running processes\nView IL code in a separate view\nView IL code as comments to decompiled C#\nUse your preferred color theme\nFind usages of any symbol\nHighlight usages in code viewer\nExplore current file\nJump to any code\nManage assembly lists\nExplore assemblies\nAnd more \n",
     "type": ["Windows"],
     "category": "Development",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "not available","credit-card": "not required","period": "-"}, //Free
     "price": "Free \n",
     "icons": "DotPeek.png"
   },
@@ -205,8 +205,8 @@
     "servicesfeatures": "Smart completion\nChain completion\nStatic members completion\nShortcuts for everything\nErgonomic user interface\nEditor-centric environment\nData flow analysis\nLanguage injection\nCross-language refactorings\nDetecting duplicates\nInspections and quick-fixes\nErgonomic user interface\nVersion control\nBuild tools\nTest runner and coverage\nDecompiler\nTerminal\nDatabase tools\nApplication servers\nDocker\nFirst-class support for top frameworks\nMany languages–one IDE \n",
     "type": ["Android"],
     "category": "Development",
-    "trialPeriod": "30 days",
-    "price": "BUSINESS AND ORGANIZATIONS\nUS $ 499.00 /1st year\nUS $ 399.00 /2nd year\nUS $ 299.00 /3rd year onwards\nUS $ 49.90 /month\n\n                         INDIVIDUAL CUSTOMERS\nUS $ 149.00 /1st year\nUS $ 119.00 /2nd year\nUS $ 89.00 /3rd yr onwards\nUS $ 14.90 /month \n",
+    "trialPeriod":  { "availability": "available","credit-card": "not required","period": "30"},
+    "price": "BUSINESS AND ORGANIZATIONS\nUS $?499.00 /1st year\nUS $?399.00 /2nd year\nUS $?299.00 /3rd year onwards\nUS $?49.90 /month\n\n                         INDIVIDUAL CUSTOMERS\nUS $?149.00 /1st year\nUS $?119.00 /2nd year\nUS $?89.00 /3rd yr onwards\nUS $?14.90 /month \n",
     "icons": "IntelliJ IDEA.png"
   },
   {
@@ -216,7 +216,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": ["Mac","Windows"],
     "category": "Animation",
-    "trialPeriod": "1 month",
+    "trialPeriod": { "availability": "available","credit-card": "required","period": "30"},
     "price": "Monthly : $185.00 \r\n1 Year : $1,470.00 \r\n2 Year : $2,793.00 \r\n2 Year : $3,969.00 \n",
     "icons": "Autodesk Maya.jpg"
   },
@@ -227,7 +227,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": ["-"],
     "category": "Animation",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "30"}, //
     "price": "Local access license : $6995, Annual Upgrade Plan : $3995. \r\nGlobal access license : $8995, Annual Upgrade Plan : $4995. \r\nAnnual Rental : $5995, Monthly Rental : $2195. \n",
     "icons": "Houdini FX.jpg"
   },
@@ -238,7 +238,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type":  ["-"],
     "category": "Animation",
-    "trialPeriod": "14 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "14"},
     "price": "$2,995 \n",
     "icons": "KeyShot Pro Floating.png"
   },
@@ -249,7 +249,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type":  ["-"],
     "category": "Animation",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "30"}, //
     "price": "$1,470\r\n\r\nMonthly * \r\n$185 SRP† \r\nQuarterly * \r\n$460 SRP† \r\nAnnually * \r\n$1,470 SRP† \r\n2 Year \r\n$2,793.00 \r\n3 year \r\n$3,969 \n",
     "icons": "Ds Max.png"
   },
@@ -260,7 +260,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type":  ["-"],
     "category": "Animation",
-    "trialPeriod": "30 days",
+    "trialPeriod":  { "availability": "available","credit-card": "-","period": "30"}, //
     "price": "$1,695\r\nfor US/Canada:- US$1,695 \r\nfor Europe:- 1394.00* \n",
     "icons": "Vue xStream.jpg"
   },
@@ -271,7 +271,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": ["-"],
     "category": "Animation",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "30"}, //
     "price": "$1,799 \n",
     "icons": "Modo.jpg"
   },
@@ -282,7 +282,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type":  ["-"],
     "category": "Animation",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "+"}, //
     "price": "$895 \n",
     "icons": "EIAS 3D.jpg"
   },
@@ -293,7 +293,7 @@
     "servicesfeatures": "Develop\nDebug\nTest\nCollaborate\nExtend \n",
     "type":  ["-"],
     "category": "Development",
-    "trialPeriod": "30 days\r\n+60 days(signing in)",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "30"}, // + 60 days (sign in)
     "price": "Community - Free\r\nProfessional- $539/year\r\nEnterprise - $2.999/year \n",
     "icons": "Visual Studio.png"
   },
@@ -304,7 +304,7 @@
     "servicesfeatures": "Data-binding\nScope \nController \nServices \nFilters \nDirectives \nTemplates \nRouting \nModel View Whatever\nDeep Linking\nDependency Injection \n",
     "type": ["-"],
     "category": "Development",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "not available","credit-card": "-","period": "-"}, //Free
     "price": "Free \n",
     "icons": "Angular js.png"
   },
@@ -315,7 +315,7 @@
     "servicesfeatures": "JSX\nComponents \nUnidirectional data flow and Flux\nLicense \n",
     "type":  ["-"],
     "category": "Development",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "not available","credit-card": "-","period": "-"}, //Free
     "price": "Free \n",
     "icons": "React js.png"
   },
@@ -326,7 +326,7 @@
     "servicesfeatures": "Asynchronous and Event Driven\r\nVery Fast\r\nSingle Threaded but Highly Scalable\r\nNo Buffering\r\nLicense \n",
     "type":  ["-"],
     "category": "Development",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "not available","credit-card": "-","period": "-"}, //Free
     "price": "Free \n",
     "icons": "Node js.jpg"
   },
@@ -337,7 +337,7 @@
     "servicesfeatures": "ACID\r\nBackup\r\nCustom Functions\r\nImport Data\r\nReal Time Access to Database\r\nReferential Integrity\r\nSQL Interpreter\r\nTransactions\r\nUnicode \n",
     "type":  ["-"],
     "category": "Database management ",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "+"}, //
     "price": "Enterprise - $14.256\r\nStandard - $3,717\r\nExpress - Free\r\nDeveloper- Free \n",
     "icons": "Microsoft SQL Server.jpg"
   },
@@ -348,7 +348,7 @@
     "servicesfeatures": "ACID\r\nArchive Storage Engines\r\nCompression of Data\r\nEncryption of Data\r\nExtensibility\r\nHigh Availability\r\nHighly Scalable\r\nInternet Protocol Support\r\nMulti-Core Support\r\nMultiple Threads\r\nOpen Source\r\nReal Time Access to Database\r\nTransactions\r\nUnicode\r\nXML Format Support \n",
     "type":  ["-"],
     "category": "Database management ",
-    "trialPeriod": "-",
+    "trialPeriod":  { "availability": "not available","credit-card": "-","period": "-"}, //Free
     "price": "Free \n",
     "icons": "MariaDB.jpg"
   },
@@ -359,7 +359,7 @@
     "servicesfeatures": "ACID\r\nReferential Integrity\r\nTransactions\r\nUnicode \n",
     "type":  ["-"],
     "category": "Database management ",
-    "trialPeriod": "30 days",
+    "trialPeriod":  { "availability": "not available","credit-card": "-","period": "30"}, //
     "price": " User-based\n$950/per user\nSoftware update and support price: 209 $\n                                 Processor based \n7,500 $/Processor license \nSoftware update and support price: 10,450 $ \n",
     "icons": "OracleDB.jpg"
   },
@@ -370,7 +370,7 @@
     "servicesfeatures": "ACID\r\nBackup\r\nCustom Functions\r\nDatabase Imports\r\nExport Data\r\nImport Data\r\nIntegrated Storage Manager\r\nJava Support\r\nReferential Integrity\r\nSQL Interpreter\r\nTransactions\r\nUnicode\r\nVery small and Fast \n",
     "type":  ["-"],
     "category": "Database management ",
-    "trialPeriod": "-",
+    "trialPeriod":  { "availability": "available","credit-card": "not required","period": "30"}, 
     "price": "Community - Free\nStandard -  $2000\nEnterprise  - $5000\nCluster Carrier Grade - $10,000 \n",
     "icons": "MySQL.png"
   },
@@ -381,7 +381,7 @@
     "servicesfeatures": "Keyword Research\r\nSite Optimization\r\nLink Management\r\nCompetitive Analysis \n",
     "type": ["Web-based"],
     "category": "SEO",
-    "trialPeriod": "14 days",
+    "trialPeriod":  { "availability": "available","credit-card": "not required","period": "14"}, 
     "price": "Starting from: $15.00/month \n",
     "icons": "Colibri.png"
   },
@@ -392,7 +392,7 @@
     "servicesfeatures": "Keyword Research\r\nSite Optimization\r\nLink Management\r\nCompetitive Analysis \n",
     "type": ["iPhone-iPad","Mac","Linux","Windows","Windows Phone","Web-based","Mobile Web App"],
     "category": "SEO",
-    "trialPeriod": "14 days",
+    "trialPeriod":  { "availability": "available","credit-card": "not required","period": "14"}, 
     "price": "Starting from:$49.00/month \n",
     "icons": "WooRank.png"
   },
@@ -403,7 +403,7 @@
     "servicesfeatures": "Keyword Research\r\nSite Optimization\r\nLink Management\r\nCompetitive Analysis \n",
     "type": ["Web-based"],
     "category": "SEO",
-    "trialPeriod": "7 days for 7$",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "7"}, //7day for 7$
     "price": "Lite - $99\r\nStandard - $179\r\nAdvanced - $399\r\nAgency - $999 \n",
     "icons": "Ahrefs.jpg"
   },
@@ -414,7 +414,7 @@
     "servicesfeatures": "Site Optimization\r\nLink Management \n",
     "type":  ["Web-based"],
     "category": "SEO",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "-"}, //
     "price": "Silver - $78.99 per month (paid monthly), $49.99 per month (paid quarterly), or $41.66 per month (paid annually)\nGold - $169.99 per month (monthly) or $141.66 per month (annually)\nPlatinum - $399.99 per month (monthly) or $333.33 per month (annually)\nTwo additional enterprise plans are also available: The 500 ($799.98 per month) and The 1000 ($1599.96 per month) \n",
     "icons": "Majestic.png"
   },
@@ -425,7 +425,7 @@
     "servicesfeatures": "Keyword Research\r\nSite Optimization\r\nLink Management\r\nCompetitive Analysis \n",
     "type":  ["Web-based"],
     "category": "SEO",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "30"},
     "price": "Standard - $99\r\nMedium - $149\r\nLarge - $249\r\nPremium - $599 \n",
     "icons": "Moz.png"
   },
@@ -436,7 +436,7 @@
     "servicesfeatures": "Keyword Research\r\nSite Optimization\r\nLink Management\r\nCompetitive Analysis \n",
     "type":  ["Web-based"],
     "category": "SEO",
-    "trialPeriod": "14 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "14"}, //
     "price": "PRO - $79.95/month\r\nPRO (recurring)  - $69.95/month\r\nGuru (recurring) - $149.95/month\r\nEnterprise (recurring) - $499/month \n",
     "icons": "SemRush.png"
   },
@@ -447,7 +447,7 @@
     "servicesfeatures": "Keyword Research\r\nSite Optimization\r\nLink Management\r\nCompetitive Analysis \n",
     "type": ["Mac","Linux","Windows"],
     "category": "SEO",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "+"}, //
     "price": "Standard - Free\r\nProfessional -$299\r\nEnterprise - $699 \n",
     "icons": "SEO PowerSuite.png"
   },
@@ -458,7 +458,7 @@
     "servicesfeatures": "Keyword Research\r\nSite Optimization\r\nLink Management\r\nCompetitive Analys \n",
     "type":  ["Web-based"],
     "category": "SEO",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "30"}, 
     "price": "Start -$27/month\r\nGrow - $57/month\r\nPro - $107/month \n",
     "icons": "Raven.png"
   },
@@ -469,7 +469,7 @@
     "servicesfeatures": "Keyword Research\r\nSite Optimization\r\nLink Management\r\nCompetitive Analysis \n",
     "type": ["Web-based","Mobile Web App"],
     "category": "SEO",
-    "trialPeriod": "14 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "14"}, 
     "price": "Freelancer: $49/month (paid monthly) or $33/month (paid annually) - 10 campaigns, 500 keywords, 10000 backlinks.\nAgency: $99/month (monthly) or $67/month (annually) - 30 campaigns, 1000 keywords, 50000 backlinks.\nEnterprise: $249/month (monthly) or $167/month (annually) - 100 campaigns, 2500 keywords, 150000 backlinks.\nUnlimited: $499/month (monthly) or $333/month (annually) - unlimited campaigns, 5000 keywords, 300000 backlinks. \n",
     "icons": "Agency Analytics.jpg"
   },
@@ -480,7 +480,7 @@
     "servicesfeatures": "Keyword Research\r\nSite Optimization\r\nLink Management \n",
     "type": ["Web-based"],
     "category": "SEO",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "not available","credit-card": "-","period": "-"}, //Free
     "price": "Free\nPremium - $150,000/year \n",
     "icons": "Google Analytics.png"
   },
@@ -491,7 +491,7 @@
     "servicesfeatures": "Keyword Research\r\nSite Optimization\r\nLink Management\r\nCompetitive Analysis \n",
     "type": ["Mac","Linux","Windows","Web-based"],
     "category": "SEO",
-    "trialPeriod": "-",
+    "trialPeriod":  { "availability": "available","credit-card": "-","period": "+"}, //
     "price": "£20/per domain\n£99/month for 5 domains \n",
     "icons": "Analytics SEO.png"
   },
@@ -502,7 +502,7 @@
     "servicesfeatures": "Keyword Research\r\nSite Optimization\r\nLink Management\r\nCompetitive Analysis \n",
     "type": ["Android","iPhone-iPad","iPhone","Web-based"],
     "category": "SEO",
-    "trialPeriod": "14 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "14"},
     "price": "Personal - $19/Month\r\nPremium - $49/Month\r\nPlus - $99/Month\r\nEnterprise: - $199/Month \n",
     "icons": "Positionly.png"
   },
@@ -513,7 +513,7 @@
     "servicesfeatures": "Analytics\r\nReporting\r\nSupport \n",
     "type": ["Windows","Windows Phone","Web-based","Mobile Web App"],
     "category": "BI Software",
-    "trialPeriod": "Available",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "+"}, //
     "price": "Please contact Sisense for pricing information \n",
     "icons": "Sisense.png"
   },
@@ -524,7 +524,7 @@
     "servicesfeatures": "Analytics\r\nReporting\r\nSupport \n",
     "type": ["Mac","Windows","Web-based"],
     "category": "BI Software",
-    "trialPeriod": "Available",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "+"}, //
     "price": "Please contact Looker for pricing information \n",
     "icons": "Looker.png"
   },
@@ -535,7 +535,7 @@
     "servicesfeatures": "Analytics\r\nReporting\r\nSupport \n",
     "type": ["Android","iPhone-iPad","iPad","Web-based","Mobile Web App"],
     "category": "BI Software",
-    "trialPeriod": "15 days",
+    "trialPeriod":  { "availability": "available","credit-card": "not required","period": "15"}, 
     "price": "Free for 2 users, 100,000 rows \r\nStandard (5 users, 500,000 rows) $50\r\nProfessional (10 users, 1,000,000 rows) $90\r\nProfessional Plus (20 users, 2,000,000 rows) $140\r\nEnterprise (50 users, 25,000,000 rows) $495 \n",
     "icons": "Zoho.png"
   },
@@ -546,7 +546,7 @@
     "servicesfeatures": "Analytics\r\nReporting\r\nSupport \n",
     "type": ["Android","iPhone-iPad","iPhone","iPad","Mac","Windows","Web-based"],
     "category": "BI Software",
-    "trialPeriod": "30 days",
+    "trialPeriod":  { "availability": "available","credit-card": "not required","period": "30"}, 
     "price": "TIBCO Spotfire Desktop: $650 per year\nTIBCO Spotfire Cloud: $200 per month, $2000 per year\nTIBCO Spotfire Platform: Contact sales for price quote. \n",
     "icons": "TIBCO Spotfire.png"
   },
@@ -557,7 +557,7 @@
     "servicesfeatures": "Analytics\r\nReporting\r\nSupport \n",
     "type": ["Web-based"],
     "category": "BI Software",
-    "trialPeriod": "14 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "14"}, 
     "price": "2 Dashboards\n$49/mo $499/yr - All data sources,Custom data API,Unlimited dashboard sharing,Email your dashboards,Email Support\n5 Dashboards\n$99/mo $999/yr - Same as above plus:Dashboard groups,Custom CSS,Custom branding\n10 Dashboards\n$169/mo $1699/yr - same as above plus:API data encryption\n20 Dashboards\n$299/mo $2999/yr - same as above plus:phone support\nEnterprise or agency plans with white label options available by request. \n",
     "icons": "Leftronic.png"
   },
@@ -568,7 +568,7 @@
     "servicesfeatures": "Analytics\r\nSupport \n",
     "type": ["Windows"],
     "category": "BI Software",
-    "trialPeriod": "14 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "14"}, 
     "price": "Alteryx Designer: $3,995 per user, per year (3-Year Subscription), $5,194 per user, per year (1-Year Subscription)\r\nAlteryx Server: $45,000 per server, per year (3-Year Subscription), $58,500 per server, per year (1-Year Subscription)\r\nAlteryx Analytics Gallery: $1,500 per user, per year (3-Year Subscription), $1,950 per user, per year (1-Year Subscription) \n",
     "icons": "Alteryx.png"
   },
@@ -579,7 +579,7 @@
     "servicesfeatures": "Analytics\r\nReporting\r\nSupport \n",
     "type": ["Mac","Windows","Windows Phone","Web-based"],
     "category": "BI Software",
-    "trialPeriod": "14 days",
+    "trialPeriod":{ "availability": "available","credit-card": "not required","period": "14"}, 
     "price": "Base Plan - $490/month\r\nBig Data Plan - $690/month\r\nTwo user licenses come with above platform fee. Each additional user is $90/month, and each additional viewer is $9/month. \n",
     "icons": "Bime.png"
   },
@@ -590,7 +590,7 @@
     "servicesfeatures": "Analytics\r\nReporting\r\nSupport \n",
     "type": ["Mac","Linux","Windows","Windows Phone","Web-based","Mobile Web App"],
     "category": "BI Software",
-    "trialPeriod": "7 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "7"}, //
     "price": "Basic - $500/month      \r\nPremier - $2000/month\r\nEnterprise  - Contact sales for price quote \n",
     "icons": "RJMetrics.jpg"
   },
@@ -601,7 +601,7 @@
     "servicesfeatures": "Analytics\r\nReporting\r\nSupport \n",
     "type": ["Android","iPhone-iPad","iPhone","iPad","Web-based"],
     "category": "BI Software",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "30"},  //
     "price": "Please contact SAP for pricing information \n",
     "icons": "SAP BusinessObjects.png"
   },
@@ -612,7 +612,7 @@
     "servicesfeatures": "Analytics\r\nReporting\r\nSupport \n",
     "type": ["iPhone-iPad","iPhone","iPad","Windows Phone","Web-based","Mobile Web App"],
     "category": "BI Software",
-    "trialPeriod": "-",
+    "trialPeriod":{ "availability": "available","credit-card": "-","period": "+"}, //
     "price": " $30,000/per 20 users/per year \n",
     "icons": "Birst.jpg"
   },
@@ -623,7 +623,7 @@
     "servicesfeatures": "Calendar management\r\nGroup forums\r\nDrag-and-drop interface\r\nRole-based permissions\r\nTeam calendars\r\nFile management\r\nContact database\r\nEmployee portal\r\nEmployee profiles\r\nActivity dashboard\r\nCollaborative workspace\r\nForms management\r\nConfigurable workflow\r\nWeb forms \n",
     "type": ["Web-based","Mobile Web App"],
     "category": "Collaboration Software",
-    "trialPeriod": "14 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "14"}, 
     "price": "Unlimited - $99/per month\r\nNot For Profit* - $85/per month \n",
     "icons": "MyHub Intranet.png"
   },
@@ -634,7 +634,7 @@
     "servicesfeatures": "Simple Workflow Mapping\r\nVisual Team Collaboration\r\nAutomated Reports and Notifications\r\nIntegration via API\r\nReal-time Updates\r\nProject File Attachments\r\nSample Workflow Templates\r\nCycle Time Analytics\r\nStatistical Process Control\r\nBuilt-in Work-in-Process (WIP) Limits\r\niOS (iPhone-iPad) and Android Apps\r\nIcons for Assigned Users, Due Date and Priority\r\nTouchscreen Compatible\r\nEfficiency Diagrams\r\nWork Distribution Diagrams\r\nCloud-hosted\r\nCalendar and Workflow Views\r\nRole-based Security Controls\r\nVertical Lanes and Horizontal Swimlanes \n",
     "type": ["Android","iPhone-iPad","iPhone","iPad","Web-based"],
     "category": "Collaboration Software",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "30"}, 
     "price": "Standard Edition - $12 / month / user*\r\nSelect Edition - $19 / month / user*\r\nAdvanced Edition - $32 / month / user*\r\nPremium Edition - $49 / month / user* \n",
     "icons": "LeanKit.jpg"
   },
@@ -645,7 +645,7 @@
     "servicesfeatures": "Lightning Community Builder and Templates\nTargeted Recommendations\nCustomer Engagement\nSalesforce Files Connect for Google Drive \n",
     "type": ["Mac","Linux","Windows","Windows Phone","Web-based","Mobile Web App"],
     "category": "Collaboration Software",
-    "trialPeriod": "30 days",
+    "trialPeriod":{ "availability": "available","credit-card": "not required","period": "30"}, 
     "price": "Customer Community - Starting at $250/month\r\nPartner Community - Starting at $500/month\r\nEmployee Community - Starting at $25/user/month \n",
     "icons": "CommuniGator.jpg"
   },
@@ -656,7 +656,7 @@
     "servicesfeatures": "Asset Management\nIncident Management\nProblem Management\nChange Management\nKnowledge Base\nSLA Management\nGamification\nRelease Management\nMobile App \n",
     "type": ["Android","iPhone-iPad","iPhone","iPad","Web-based"],
     "category": "Collaboration Software",
-    "trialPeriod": "Blossom - 30 days \r\nGarden - 30 days\r\nEstate - 30 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "30"}, 
     "price": "Sprout - $0 - FREE up to 3 agents and up to 100 assets. \nBlossom - $29/agent/month. \nGarden - $49/agent/month.\nEstate - $79/agent/month.\nFor Blossom, Garden and Estate Plans, you can purchase additional assets at 20 cents/asset/month. \n",
     "icons": "Freshservice ServiceDesk.png"
   },
@@ -667,7 +667,7 @@
     "servicesfeatures": "Collaborate with users, teams, vendors, and departments.\nCommunicate, share, and engage with users & teams.\nManage documents, images, files, and videos.\nSecurely store documents, PDF's, videos, and more.\nUpload, manage, search, and drag-n-drop files.\nSetup, track, and manage individual & group calendars.\nInput, track, and manage innovative ideas.\nPrivate, secure messaging to individuals and groups.\nAdmin analytics for usage, access, and ROI.\nMobile notifications for updates, to-do's, and availability.\nOnboarding program for setup and getting started.\nAutomatically track the time for each project.\nSetup user and admin roles, permissions, and accesses.\nComplete system search capabilities.\nSecure, encrypted data and document storage.\nSetup, manage, and track individual and group tasks.\nEasily integrate third-party applications.\nTraining programs available for larger and custom solutions.\nMaintain version control on documents and files.\nSetup, manage, and track workflows. \n",
     "type": ["Mac","Linux","Windows","Windows Phone","Web-based","Mobile Web App"],
     "category": "Collaboration Software",
-    "trialPeriod": "Available",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "+"},  //
     "price": "Bolste PRO: $9.99/user/month\r\nBolste CORPORATE: Please contact Bolste for a custom quote. \n",
     "icons": "Bolste.png"
   },
@@ -678,7 +678,7 @@
     "servicesfeatures": "Digital Asset Management - Organize and share media\nCreative Project Management - Collaborate and create media\nBrand Guidelines - Facilitate brand consistency\nWeb-to-Print - Create new media without agencies\nProduct Information Management - Integrate product data\nBrand Store - Equip global teams with advertising material\nNative App Suite - Sales Enablement\nOnline Proofing - Review and approve media online\nDrag and Drop - User-friendly navigation\nCustom Theming - Full on-brand experience\nSystem Integration - APIs to connect your existing IT system\nUser Rights Management\nEnterprise Security Standards\nTaxonomy - Adapt structure to your needs\nCloud-based SaaS Solution - Accessible via web browser\nHybrid Mode - Use local network speeds for upload\nContent Hub \n",
     "type": ["iPhone","Web-based","iPad","Mobile Web App"],
     "category": "Collaboration Software",
-    "trialPeriod": "Essential - 14 days\r\nTeam - 14 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "14"},
     "price": "Essential - $450/month\nTeam - $1250/month\nCorporate - 2250/month \n",
     "icons": "Bynder.jpg"
   },
@@ -689,7 +689,7 @@
     "servicesfeatures": "OnDemand or Hosted\nSpace Directory\nKnowledge Base\nRich Text Editor\nDrag and Drop Editing\nAdvanced Table Editing\nTask Notifications\nLivesearch Macro\nAdvanced Search\nJIRA Integration\nCustom Layouts\nMassive Plugin Ecosystem\nDashboard\nCalendars\nShare Button\nUnlimited Spaces\nOpen API\nReal Time Editing\nMacros/Add-ons\nVersion Control\nEmail Integration\nDocument Management\nContent Management\nProject Management\nAutomatic Notifications\nCollaborative Workspace\nDrag & Drop Interface\nTask Tracking \n",
     "type": ["iPhone-iPad","iPhone","Mac","Linux","Windows","Web-based"],
     "category": "Collaboration Software",
-    "trialPeriod": "7 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "7"},
     "price": "Small teams - $10/per month/10 user\nGrowing teams - $50/per month/15 users \n",
     "icons": "Atlassian Confluence.png"
   },
@@ -700,7 +700,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": ["Mac","Windows","Linux"],
     "category": "Animation",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "30"}, //
     "price": "RealFlow | Cinema 4D $495 \r\nRealFlow 2015 $2095 \r\nRealFlow Starter Pack $2895 \r\nREalFlow Premium Pack $4295 \n",
     "icons": "RealFlow.png"
   },
@@ -711,7 +711,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": ["Mac","Windows"],
     "category": "Animation",
-    "trialPeriod": "21 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "21"}, 
     "price": "Essentials : $15 Monthly ( $180 annual billing) \nAdvanced : $38 Monthly ( $456 annual billing) \nPremium : $73 Monthly ( $876 annual billing) \n",
     "icons": "Harmony.png"
   },
@@ -722,7 +722,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": ["Mac","Windows","Linux"],
     "category": "Animation",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "30"}, // 
     "price": "Upgrade License :- $706.69 \n",
     "icons": "TVPaint.png"
   },
@@ -733,7 +733,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": ["Mac","Windows"],
     "category": "Animation",
-    "trialPeriod": "42 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "42"}, 
     "price": "Cinema 4D Prime $995.00 \r\nCinema 4D Prime Multi-License (min 3 licenses) $795.00 \r\nCinema 4D Prime Upgrade $395.00 \n",
     "icons": "Cinema 4D Prime R17.png"
   },
@@ -744,7 +744,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": ["Mac","Windows"],
     "category": "Animation",
-    "trialPeriod": "90 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "90"}, //
     "price": "$395 (USD) Commercial Upgrade \r\n$95 (USD) Educational Upgrade \r\n$295 (USD) 5-Seat Lab Pack Upgrade \r\n$195 (USD) Full Educational \r\n$795 (USD) Educational 5-Seat Lab Pack \n",
     "icons": "LightWave.jpg"
   },
@@ -755,7 +755,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": ["Windows"],
     "category": "Animation",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "90"}, //
     "price": "Standart - $99\r\nPRO - $149\r\niClone 6 PRO Bundle - $249\r\niClone 6 Chara cter Creator Deluxe Suite - $349\r\niClone 6 Animation Pipeline - $599\r\niClone 6 Studio Pipeline Suite - $699\r\niClone Perception Neuron Mocap Live Solo - $699\r\niClone Perception Neuron Mocap Live Duo - $799 \n",
     "icons": "iClone 6.png"
   },
@@ -766,7 +766,7 @@
     "servicesfeatures": "Animation\nModeling\nRendering \n",
     "type": ["Mac","Windows"],
     "category": "Animation",
-    "trialPeriod": "30 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "30"}, //
     "price": "Pro - $285 \n",
     "icons": "Carrara 8.5.png"
   },
@@ -777,7 +777,7 @@
     "servicesfeatures": "Download\r\nGeneral\r\nGUI\r\nProtocol \n",
     "type": ["Mac","Linux","Windows"],
     "category": "Web scraping",
-    "trialPeriod": "-",
+    "trialPeriod":{ "availability": " not available","credit-card": "-","period": "-"}, //Free
     "price": "Free \n",
     "icons": "Darcy Ripper.png"
   },
@@ -788,7 +788,7 @@
     "servicesfeatures": "Extractors \r\nCrawlers \r\nConnector \r\nTable Auto Extract \r\nAuthenticates APIs \r\nThroughput \r\nUptime \r\nFederation \r\nData Extraction Formats \r\nDataset \r\nClient Libraries \r\nIntegrations \r\nTests \r\nStorage \n",
     "type": ["Windows"],
     "category": "Web scraping",
-    "trialPeriod": "Available",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "+"}, //
     "price": "Free\r\nEssential - $249\r\nProffessional - $399\r\nEnterprise - $799 \n",
     "icons": "Import.png"
   },
@@ -799,7 +799,7 @@
     "servicesfeatures": "Extraction Mode\nExtraction Task Management\nHandle Website\nDesign Workflow\nWorkflow Advance Options\nBuilt-in tools\nExport/Store data\nCloud Service\nExtraction options\nSupport \n",
     "type": ["Windows"],
     "category": "Web scraping",
-    "trialPeriod": "Available",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "+"}, //
     "price": "Basic - free\r\nStandart Plan - 89/month,$890/year\r\nProfessional Plan - 189/month,$1890/year\r\nCustom - please contact for more information \n",
     "icons": "Octoparse.jpg"
   },
@@ -810,7 +810,7 @@
     "servicesfeatures": "B2B Integration / Process Automation\r\nContent Integration\r\nSales Lead Generation\r\nBackground Checking\r\nGovernment Solutions\r\nCompliance & Risk Management\r\nMarket Intelligence and Monitoring\r\nData Aggregation\r\nPrice Comparison Portals / Mobile Apps \n",
     "type": ["Windows"],
     "category": "Web scraping",
-    "trialPeriod": "15 days",
+    "trialPeriod": { "availability": "available","credit-card": "-","period": "15"}, //
     "price": "Single User License - $349\r\n2 Seat License\r\n5 Seat License\r\n10 Seat License\r\n2-5 Single User Licenses (after your first purchase)\r\nMore than 5 Single User Licenses (after your fifth purchase) \n",
     "icons": "Visual Web Ripper.png"
   },
@@ -821,7 +821,7 @@
     "servicesfeatures": "Point-and-click user interface\r\nExtract HTML-based data to MS Excel, CSV, XML, database or any text format\r\nDownload images and files\r\nProcess Web 2.0 web sites with heavy AJAX\r\nExtract data from local html sources\r\nNotification, custom export, RSS, publishing\r\nIncremental extraction, text recognition\r\nAPI - access WebSundew from Java, .Net\r\nBuilt-it scheduler and command line support \n",
     "type": ["Windows"],
     "category": "Web scraping",
-    "trialPeriod": "15 days",
+    "trialPeriod":  { "availability": "available","credit-card": "-","period": "15"}, //
     "price": "starting from $99 (Lite) up to $2499 for Enterprise edition. \n",
     "icons": "WebSundew.png"
   },
@@ -832,7 +832,7 @@
     "servicesfeatures": "added presets feature\r\nsmaller xpaths are auto-generated\r\nnewlines are preserved in export\r\nslightly improved table selector won't capture rows containing no TDs\r\ncopy data to clipboard (as tab-separated values) \n",
     "type": ["Web-based"],
     "category": "Web scraping",
-    "trialPeriod": "-",
+    "trialPeriod":  { "availability": "notavailable","credit-card": "-","period": "-"}, //Free
     "price": "Free \n",
     "icons": "Scraper(Chrome Extension).jpg"
   },
@@ -843,7 +843,7 @@
     "servicesfeatures": "Continue to create new kimono APIs with a new Chrome extension\r\nRun APIs, extract new data and crawl thousands of pages all locally from your machine\r\nTransfer all your kimono APIs to your kimono desktop account (before Mar 31, 2016)\r\nFirebase integration for cloud hosted JSON data\r\nSave crawl data to file (JSON, CSV, RSS)\r\nModify crawl data with javascript functions before exporting to file or firebase \n",
     "type": ["Mac","Windows"],
     "category": "Web scraping",
-    "trialPeriod": "-",
+    "trialPeriod":  { "availability": "not available","credit-card": "-","period": "-"}, //Free
     "price": "Free \n",
     "icons": "kimono Labs.png"
   },
@@ -854,7 +854,7 @@
     "servicesfeatures": "Voice calls\r\nCalls to mobiles and landlines\r\n1:1 video calls\r\nGroup video calls & conferencing\r\nInstant messaging\r\nSMS\r\nVoice messages\r\nFile sharing & transfer\r\nScreen sharing\r\nContact sharing\r\nSkype to Facebook\r\nSkype WiFi\r\nSkype Manager\r\nSkype Connect \n",
     "type": ["Android","iPhone-iPad","iPhone","Mac","Linux","Windows","Windows Phone"],
     "category": "Communication software",
-    "trialPeriod": "-",
+    "trialPeriod": { "availability": "not available","credit-card": "not required","period": "-"}, //
     "price": "Free\r\nPremium account -  €3.49/month(€4.01 incl. VAT) \n",
     "icons": "Skype.png"
   },
@@ -865,7 +865,7 @@
     "servicesfeatures": "Create open channels for anyone on your team to join\r\nSupport for private groups and 1:1 direct messaging\r\nFile Sharing\r\nDeep, Contextual Search\r\nAlways In Sync\r\nMac, Windows, Android, and iOS apps available\r\nNearly 100 integrations\r\nOpen API to build your own integrations\r\nAll data transfer is encrypted\r\nDesktop & mobile messaging\r\nNotifications \n",
     "type": ["Android","iPhone-iPad","iPhone","iPad","Mac","Windows","Web-based"],
     "category": "Communication software",
-    "trialPeriod": "Available",
+    "trialPeriod": { "availability": "available","credit-card": "not required","period": "-"}, //
     "price": "Free Plan: $0\r\nNo limits on time or users\r\n10,000 message searchable archive\r\n5 external service integrations\r\n\r\nStandard Plan\r\n$6.67 per user / month\r\nUnlimited message searchable archive\r\n\r\nPlus: $12.50 per user / month\r\n\r\nEnterprise: Coming Soon \n",
     "icons": "Slack.png"
   },
@@ -876,7 +876,7 @@
     "servicesfeatures": "Remote Support\r\nRemote Administration\r\nRemote Access\r\nHome Office\r\nGroup sharing\r\nRemote Printing\r\nSession Handover\r\nOutlook Meeting Add-in \n",
     "type": ["Android","iPhone-iPad","Mac","Linux","Windows"],
     "category": "Communication software",
-    "trialPeriod": "14 days",
+    "trialPeriod": { "availability": "available","credit-card": "required", "period" : "14"}, 
     "price": "Private user - free of charge\nBusiness - € 499        ,\nPremium - € 998\nCorporate - € 2.499 (currently € 1.990) \n",
     "icons": "TeamViewer.png"
   },
@@ -887,7 +887,7 @@
     "servicesfeatures": "Enterprise Microblogging\r\nPrivate Messaging\r\nOffice 365 integration\r\nCompany Directory\r\nMobile compatable\r\nArchives conversations\r\nCreate and join private or public groups\r\nHigh level security\r\nShare files, Links, and images\r\nMessage and content tagging\r\nInstant private messaging, one-to-one, one-to-many\r\nIntegrate with third-party applications\r\nCreate communities with partmers\r\nCreate Yammer Groups\r\nProfile pages\r\nSee who's online\r\nSearchable company directory\r\nMessage inbox with priority settings\r\nSearchable knowledge base\r\nSearch people, groups and content \n",
     "type": ["Android","iPhone-iPad","iPhone","iPad","Windows Phone","Web-based"],
     "category": "Communication software",
-    "trialPeriod": "Available",
+    "trialPeriod":{ "availability": "available","credit-card": "not required", "period" : "+"}, // 
     "price": "Yammer Enterprise Standalone\r\n$3 per user/month\r\n\r\nOffice 365 For Business\r\nStarts at $5 per user/month\r\n\r\nOffice 365 For Education\r\nFree and Paid Plans Available \n",
     "icons": "Yammer.png"
   },
@@ -898,7 +898,7 @@
     "servicesfeatures": "Mobile ready templates\r\nTemplates gallery\r\nPersonalization\r\nInline CSS\r\nInbox preview\r\nEmail automation\r\nDynamic content\r\nYour own branding\r\nSegmentation & targeting\r\nA/B testing\r\nSpam testing\r\nImage hosting\r\nRSS to email\r\nEmail tracking & analytics\r\nTransactional email\r\nSubscriber list management\r\nSocial sharing\r\nSocial reporting\r\nWhitelabel solution for agencies\r\n250+ integrations \n",
     "type": ["iPhone-iPad","iPhone","Mac","Linux","Windows","Windows Phone","Web-based","Mobile Web App"],
     "category": "Communication software",
-    "trialPeriod": "14 days",
+    "trialPeriod": { "availability": "available","credit-card": "not required", "period" : "14"}, 
     "price": "Basic - $9\r\nUnlimited - $29\r\nPremier - $149",
     "icons": "Campaign Monitor.png"
   }
