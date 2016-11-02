@@ -777,7 +777,7 @@
     "servicesfeatures": "Download\r\nGeneral\r\nGUI\r\nProtocol \n",
     "type": ["Mac","Linux","Windows"],
     "category": "Web scraping",
-    "trialPeriod":{ "availability": " not available","credit-card": "-","period": "-"}, //Free
+    "trialPeriod":{ "availability": "not available","credit-card": "-","period": "-"}, //Free
     "price": "Free \n",
     "icons": "Darcy Ripper.png"
   },
@@ -832,7 +832,7 @@
     "servicesfeatures": "added presets feature\r\nsmaller xpaths are auto-generated\r\nnewlines are preserved in export\r\nslightly improved table selector won't capture rows containing no TDs\r\ncopy data to clipboard (as tab-separated values) \n",
     "type": ["Web-based"],
     "category": "Web scraping",
-    "trialPeriod":  { "availability": "notavailable","credit-card": "-","period": "-"}, //Free
+    "trialPeriod":  { "availability": "not available","credit-card": "-","period": "-"}, //Free
     "price": "Free \n",
     "icons": "Scraper(Chrome Extension).jpg"
   },

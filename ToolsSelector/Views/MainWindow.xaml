@@ -22,7 +22,7 @@
             <ColumnDefinition Width="Auto" MinWidth="495.2"/>
         </Grid.ColumnDefinitions>
         <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,0,9.6,0.4">
-            <StackPanel   >
+            <StackPanel >
                 <Label x:Name="categoryLabel" Content="Category" HorizontalAlignment="left" Margin="35,5,0,0" VerticalAlignment="Top" Width="60"/>
                 <ComboBox x:Name="categoryCombo" ItemsSource="{Binding x, ConverterParameter=Category, Converter={StaticResource DistinctConverter}, Mode=OneWay}"   DisplayMemberPath="Category" SelectedValuePath="Category" SelectedItem="{Binding SelectedTool}"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"  />
                 <Label x:Name="featuresLabel" Content="Services/Features" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,65,0,0" Width="110"/>
@@ -30,7 +30,12 @@
                 <Label x:Name="typeLabel" Content="Type" HorizontalAlignment="Left" Margin="45,65,0,0" VerticalAlignment="Top" Width="80"/>
                 <ComboBox x:Name="typeCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Type}" DisplayMemberPath="Type" SelectedValuePath="Type" SelectedItem="{Binding SelectedTool}"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
                 <Label x:Name="trialPeriodLabel" Content="Trial Period" HorizontalAlignment="Left" Margin="33,65,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.472,1.594"/>
-                <ComboBox x:Name="trialPeriodCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=TrialPeriod}" DisplayMemberPath="TrialPeriod" SelectedValuePath="TrialPeriod" SelectedItem="{Binding SelectedTool}" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
+                <ComboBox x:Name="trialPeriodCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=TrialPeriod.Period}" DisplayMemberPath="TrialPeriod.Period" SelectedValuePath="TrialPeriod.Period" SelectedItem="{Binding SelectedTool}" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120"/>
+                <Label x:Name="availabilityLabel" Margin="30,10,0,0"  Content="Availability"/>
+                <ListBox x:Name="trialListBox" ItemsSource="{Binding x}" SelectedItem="{Binding  SelectedTool}">
+                    <CheckBox x:Name="availableCheckBox" Checked="availableCheckBox_Checked"  Content="available"   IsChecked="{Binding Path=TrialPeriod,Converter={StaticResource DistinctConverter},ConverterParameter=TrialPeriod.Availability}"   Margin="0,20,0,0"  />
+                </ListBox>
+
                 <Label x:Name="priceLabel" Content="Price" HorizontalAlignment="Left" Margin="45,65,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,0.016" Width="60"/>
                 <ComboBox x:Name="priceCombo" ItemsSource="{Binding x,Converter={StaticResource DistinctConverter},ConverterParameter=Price}" SelectedItem="{Binding SelectedTool}" DisplayMemberPath="Price" SelectedValuePath="Price"  HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.295,0.455"/>
             </StackPanel>

@@ -26,7 +26,7 @@ namespace ToolsSelector
 
     {
         string jsonFile = File.ReadAllText(@"Resources\Json.json");
-
+        
         public List<Tool> x { get; set; }
         public List<Tool> backup { get; set; }
 
@@ -72,6 +72,7 @@ namespace ToolsSelector
                 x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
                 backup = new List<Tool>(x);
                 this.DataContext = this;
+                trialListBox.ItemsSource = null;
             }
             catch (Exception ex)
             {
@@ -98,7 +99,7 @@ namespace ToolsSelector
             RaisePropertyChanged("x");
         }
 
-
+       
         private void Refresh_Click(object sender, RoutedEventArgs e)
         {
             Refresh();
@@ -107,6 +108,7 @@ namespace ToolsSelector
 
         private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            
             try
             {
                 string name = (sender as System.Windows.Controls.Image).Tag.ToString();
@@ -132,6 +134,11 @@ namespace ToolsSelector
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void availableCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+           
         }
     }
 }

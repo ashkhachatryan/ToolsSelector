@@ -11,10 +11,12 @@ using ToolsSelector.Models;
 
 namespace ToolsSelector.Views
 {
+
     class DistinctConverter : Tool ,IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
+           
             List<Tool> list = (value as IEnumerable<Tool>).ToList();
             //distinct = list.GetType().GetProperty("Category").GetValue(list, null);
             List<Tool> distinct = null;
@@ -43,10 +45,15 @@ namespace ToolsSelector.Views
             {
                 distinct = list.GroupBy(x => x.ServicesFeatures).Select(g => g.First()).ToList();
             }
-            else if (parameter.ToString()== "TrialPeriod")
+            else if (parameter.ToString()== "TrialPeriod.Period")
             {
-                distinct = list.GroupBy(x => x.TrialPeriod).Select(g => g.First()).ToList();
+                distinct = list.GroupBy(x => x.TrialPeriod.Period).Select(g => g.First()).ToList();
             }
+            else if (parameter.ToString()=="TrialPeriod.Availability")
+            {
+                    distinct = list.GroupBy(x => x.TrialPeriod.Availability[0]).Select(g => g.First()).ToList();
+            }
+           
             else if (parameter.ToString() == "Price")
             {
                 distinct = list.GroupBy(x => x.Price).Select(g => g.First()).ToList();
