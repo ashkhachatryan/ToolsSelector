@@ -26,7 +26,7 @@ namespace ToolsSelector
 
     {
         string jsonFile = File.ReadAllText(@"Resources\Json.json");
-        
+
         public List<Tool> x { get; set; }
         public List<Tool> backup { get; set; }
 
@@ -72,14 +72,13 @@ namespace ToolsSelector
                 x = JsonConvert.DeserializeObject<List<Tool>>(jsonFile);
                 backup = new List<Tool>(x);
                 this.DataContext = this;
-                trialListBox.ItemsSource = null;
             }
             catch (Exception ex)
             {
 
                 MessageBox.Show(ex.Message);
             }
-         
+
 
         }
 
@@ -95,20 +94,20 @@ namespace ToolsSelector
         public void Refresh()
         {
             x = backup;
-            descriptionTextBox.Clear();
             RaisePropertyChanged("x");
         }
 
-       
+
         private void Refresh_Click(object sender, RoutedEventArgs e)
         {
             Refresh();
-
+            descriptionTextBox.Clear();
+            availabilityCheckBox.IsChecked = false;
+            creditCardCheckBox.IsChecked = false;
         }
 
         private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            
             try
             {
                 string name = (sender as System.Windows.Controls.Image).Tag.ToString();
@@ -138,7 +137,43 @@ namespace ToolsSelector
 
         private void availableCheckBox_Checked(object sender, RoutedEventArgs e)
         {
-           
+            availabilityCheckBox = (CheckBox)sender;
+
+            if (availabilityCheckBox.IsChecked == true)
+            {
+                var tool = x.Where(x => x.TrialPeriod.Availability == "available").ToList();
+                x = new List<Tool>(tool);
+                RaisePropertyChanged("x");
+            }
         }
+
+        private void availabilityCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            if (availabilityCheckBox.IsChecked == false)
+            {
+                Refresh();
+
+            }
+        }
+
+        private void creditCardCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            if (creditCardCheckBox.IsChecked == true)
+            {
+                var tool = x.Where(x => x.TrialPeriod.CreditCard == "not required").ToList();
+                x = new List<Tool>(tool);
+                RaisePropertyChanged("x");
+            }
+        }
+
+        private void creditCardCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            if (creditCardCheckBox.IsChecked==false)
+            {
+                Refresh();
+            }
+        }
+
+      
     }
 }

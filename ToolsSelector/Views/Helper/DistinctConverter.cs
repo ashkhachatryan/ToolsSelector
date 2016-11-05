@@ -25,35 +25,37 @@ namespace ToolsSelector.Views
             {
                 distinct = list.GroupBy(x => x.Category).Select(g => g.First()).ToList();
             }
-            else if (parameter.ToString() == "Type")
-            {
-                try
-                {
-                    foreach (var item in list)
-                    {
-                        //distinct = (List<Tool>)item.Type.Select(g => g.First())/*;*/
-                    }
-                }
-                catch (Exception ex)
-                {
+            //else if (parameter.ToString() == "Type")
+            //{
+            //    try
+            //    {
+            //       for (int i = 0; i < Type.Length; i++)
+            //        {
+            //            distinct = list.GroupBy(x => x.Type[i]).Select(g => g.First()).ToList();
+            //        }
 
-                    MessageBox.Show(ex.Message);
-                }
+
+            //        //distinct = list.GroupBy(x => x.Type[0]).Select(g => g.First()).ToList();
+
+
+            //        //distinct = (List<Tool>)item.Type.Select(g => g.First());
+
+            //    }
+            //    catch (Exception ex)
+            //    {
+
+            //        MessageBox.Show(ex.Message);
+            //    }
                 
-            }
+            //}
             else if (parameter.ToString() == "ServicesFeatures")
             {
                 distinct = list.GroupBy(x => x.ServicesFeatures).Select(g => g.First()).ToList();
             }
-            else if (parameter.ToString()== "TrialPeriod.Period")
+            else if (parameter.ToString() == "TrialPeriod.Period")
             {
                 distinct = list.GroupBy(x => x.TrialPeriod.Period).Select(g => g.First()).ToList();
             }
-            else if (parameter.ToString()=="TrialPeriod.Availability")
-            {
-                    distinct = list.GroupBy(x => x.TrialPeriod.Availability[0]).Select(g => g.First()).ToList();
-            }
-           
             else if (parameter.ToString() == "Price")
             {
                 distinct = list.GroupBy(x => x.Price).Select(g => g.First()).ToList();

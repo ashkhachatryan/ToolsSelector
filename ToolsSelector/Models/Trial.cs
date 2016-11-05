@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace ToolsSelector.Models
 {
-    
    public class Trial
     {
         [JsonProperty(PropertyName = "availability")]
