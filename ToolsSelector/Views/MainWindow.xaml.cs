@@ -174,6 +174,29 @@ namespace ToolsSelector
             }
         }
 
-      
+
+        //private void trialPeriodCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //{
+        //    foreach (var item in x)
+        //    {
+        //        for (int i = 0; i < item.Type.Length; i++)
+        //        {
+        //            var tool = x.Where(x => x.Type[i] == "Android").ToList();
+        //            x = new List<Tool>(tool);
+        //            RaisePropertyChanged("x");
+        //        }
+        //    }
+        //}
+
+
+
+        //private void trialPeriodCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //{
+        //    foreach (var item in x.Select(x=>x.Type))
+        //    {
+        //        var tool = item.Where(x => x.ToString() == "Android");
+        //    }
+
+        //}
     }
 }

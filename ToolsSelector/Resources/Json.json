@@ -71,7 +71,7 @@
     "webPage": "communigator.com",
     "description": "CommuniGator offers a full suite of marketing automation tools to improve both your marketing efficiency and marketing effectiveness. Drive results through drip marketing, lead nurturing, page scoring, and a variety of other tools. \n",
     "servicesfeatures": "Drip marketing\r\nLead nurturing and scoring\r\nPage scoring\r\nRemarketing\r\nAutomated follow-up actions based on triggers\r\nFull triggered campaigns\r\nEmail marketing\r\nEnd-to-end reporting \n",
-    "type": ["Desktop","Web-based"],
+    "type": ["Windows","Web-based"],
     "category": "Marketing",
     "trialPeriod": { "availability": "available","credit-card": "+","period": "14" }, //
     "price": "Contact for a quote \n",
