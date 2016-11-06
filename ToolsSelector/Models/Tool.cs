@@ -1,16 +1,8 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
 
 namespace ToolsSelector.Models
 {
-    public class Tool :Trial
+    public class Tool : Trial
     {
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }

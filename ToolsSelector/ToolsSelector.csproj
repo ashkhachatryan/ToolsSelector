@@ -64,7 +64,7 @@
     <Compile Include="ViewModels\Actions.cs" />
     <Compile Include="Views\Helper\LinkConverter.cs" />
     <Compile Include="Views\Helper\PathConverter.cs" />
-    <Page Include="Views\MainWindow.xaml">
+    <Page Include="Views\TheTools.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -73,8 +73,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Views\Helper\DistinctConverter.cs" />
-    <Compile Include="Views\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="Views\TheTools.xaml.cs">
+      <DependentUpon>TheTools.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -110,6 +110,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\Icon\icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\Images\Agency Analytics.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
