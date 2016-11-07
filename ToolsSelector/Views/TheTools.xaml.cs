@@ -153,7 +153,7 @@ namespace ToolsSelector
                 RaisePropertyChanged("tools");
             }
 
-           
+
         }
 
         private void creditCardCheckBox_Unchecked(object sender, RoutedEventArgs e)
@@ -172,22 +172,41 @@ namespace ToolsSelector
             List<Tool> toolsCopy = new List<Tool>(tools);
             if ((sender as ComboBox).Name == "typeCombo")
             {
-                    foreach (var item in tools)
+                foreach (var item in tools)
+                {
+                    if (!item.Type.Contains(typeCombo.SelectedValue))
                     {
-                        if (!item.Type.Contains(typeCombo.SelectedValue))
-                        {
-                            newTools.Add(item);
-                        }
+                        newTools.Add(item);
                     }
+                }
 
-                    foreach (var item in newTools)
-                    {
-                        toolsCopy.Remove(item);
-                    }
+                foreach (var item in newTools)
+                {
+                    toolsCopy.Remove(item);
+                }
             }
             tools = new List<Tool>(toolsCopy);
             RaisePropertyChanged("tools");
 
         }
+
+        private void nameCombo_TextChanged(object sender, RoutedEventArgs e)
+        {
+          
+        }
+
+        private void nameCombo_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            nameCombo.IsDropDownOpen = true;
+        }
+
+        private void nameCombo_GotFocus(object sender, RoutedEventArgs e)
+        {
+            nameCombo.IsDropDownOpen = true;
+        }
+
+        
+
+
     }
 }
